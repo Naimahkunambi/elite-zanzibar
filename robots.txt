@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://naimahkunambi.github.io/elite-zanzibar/sitemap.xml
