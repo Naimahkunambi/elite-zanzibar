@@ -1,0 +1,2311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELITE | Short Stays & Services in Zanzibar</title>
+
+<meta name="description" content="ELITE offers furnished short stays, professional cleaning and fumigation, maintenance, and transport and logistics services across Zanzibar.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0d2d23">
+<meta name="color-scheme" content="light">
+<meta name="format-detection" content="telephone=no">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+<link id="canonicalLink" rel="canonical">
+<meta property="og:site_name" content="ELITE">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ELITE | Short Stays & Services in Zanzibar">
+<meta property="og:description" content="Furnished short stays, cleaning and fumigation, maintenance, and transport and logistics across Zanzibar.">
+<meta property="og:image" content="assets/elite-pool-sunset.webp">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ELITE",
+  "description": "Furnished short stays, professional cleaning and fumigation, maintenance, and transport and logistics services in Zanzibar.",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Zanzibar"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "ELITE services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Furnished short-stay accommodation","areaServed":"Zanzibar"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Professional cleaning and fumigation","areaServed":"Zanzibar"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Maintenance","areaServed":"Zanzibar"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Transport and logistics","areaServed":"Zanzibar"}}
+    ]
+  }
+}
+</script>
+
+<style>
+
+:root {
+  --green:#0d2d23;
+  --green2:#183f32;
+  --ivory:#f3ecdf;
+  --cream:#fffaf3;
+  --brown:#8a6348;
+  --ink:#17231e;
+  --muted:#5b665f;
+  --line:rgba(13,45,35,.14);
+  --white:#fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+body.lock{overflow:hidden}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+img{display:block;width:100%}
+.container{width:min(1180px,calc(100% - 34px));margin:auto}
+.display{font-family:'Marcellus',serif;font-weight:400;letter-spacing:-.035em;line-height:.95}
+.eyebrow{font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:800}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border:1px solid transparent;border-radius:2px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.btn-dark{background:var(--green);color:white}
+.btn-light{background:white;color:var(--green)}
+.btn-outline{background:transparent;border-color:currentColor}
+.btn-brown{background:var(--brown);color:white}
+
+/* NAV */
+.site-header{position:fixed;z-index:60;top:0;left:0;right:0;background:rgba(8,27,21,.96);color:white}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:11px}
+.brand-mark{width:42px;height:42px;border:1px solid rgba(255,255,255,.55);display:grid;place-items:center;font-family:'Marcellus',serif;font-size:20px}
+.brand strong{display:block;font-size:17px}
+.brand small{display:block;font-size:8px;letter-spacing:.15em;text-transform:uppercase;opacity:.78;margin-top:2px}
+.nav-links{display:flex;gap:26px;align-items:center;font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:800}
+.nav-links .route{background:none;border:0;color:white;padding:29px 0;opacity:.7;position:relative}
+.nav-links .route.active,.nav-links .route:hover{opacity:1}
+.nav-links .route.active:after{content:"";position:absolute;left:0;right:0;bottom:17px;height:2px;background:var(--brown)}
+.menu{display:none;width:40px;height:40px;border:1px solid rgba(255,255,255,.22);background:transparent;color:white}
+.mobile-menu{position:fixed;z-index:70;inset:0;background:var(--green);color:white;transform:translateX(100%);transition:.3s;padding:90px 22px 28px}
+.mobile-menu.show{transform:none}
+.mobile-menu .route{display:block;width:100%;background:none;border:0;border-bottom:1px solid rgba(255,255,255,.12);color:white;text-align:left;font-family:'Marcellus',serif;font-size:31px;padding:10px 0}
+.mobile-menu .close-menu{position:absolute;right:18px;top:18px;width:42px;height:42px;background:none;border:1px solid rgba(255,255,255,.24);color:white}
+
+/* PAGE ROUTER */
+.app{padding-top:76px}
+.page{display:none;min-height:calc(100vh - 76px);animation:pageIn .5s ease}
+.page.active{display:block}
+@keyframes pageIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.page-hero{min-height:72vh;position:relative;color:white;display:grid;align-items:end;overflow:hidden;background:var(--green)}
+.page-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.page-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,22,17,.90),rgba(5,22,17,.34)),linear-gradient(0deg,rgba(5,22,17,.64),transparent 55%)}
+.page-hero .inner{position:relative;z-index:2;padding:70px 0 42px}
+.page-hero h1{font-size:clamp(54px,7vw,98px);margin:10px 0 14px;max-width:900px}
+.page-hero p{max-width:650px;color:rgba(255,255,255,.90);line-height:1.7;font-size:15px}
+.hero-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+
+/* HOME */
+.home-intro{padding:90px 0 72px;background:var(--ivory)}
+.home-intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:end}
+.home-intro h2{font-size:clamp(40px,5vw,70px);color:var(--green);margin:6px 0}
+.home-intro p{color:var(--muted);line-height:1.75}
+.home-split{display:grid;grid-template-columns:1.25fr .75fr;gap:12px;margin-top:28px}
+.home-stay{min-height:560px;position:relative;overflow:hidden}
+.home-stay img{height:100%;object-fit:cover}
+.home-stay:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,22,17,.86),transparent 58%)}
+.home-stay-copy{position:absolute;z-index:2;left:26px;right:26px;bottom:24px;color:white}
+.home-stay-copy h3{font-family:'Marcellus',serif;font-size:42px;font-weight:400;margin:6px 0}
+.home-stay-copy p{max-width:460px;font-size:12px;color:rgba(255,255,255,.88)}
+.home-side{display:grid;gap:12px}
+.home-side button{position:relative;min-height:176px;overflow:hidden;border:0;padding:0;color:white;text-align:left}
+.home-side img{height:100%;object-fit:cover}
+.home-side button:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,22,17,.75),transparent 60%)}
+.home-side span{position:absolute;z-index:2;left:17px;bottom:15px;font-family:'Marcellus',serif;font-size:24px}
+
+/* STAYS */
+.section{padding:82px 0;background:var(--ivory)}
+.section-head{display:grid;grid-template-columns:1fr .75fr;gap:40px;align-items:end;margin-bottom:30px}
+.section-head h2{font-size:clamp(40px,5vw,68px);color:var(--green);margin:0}
+.section-head p{color:var(--muted);line-height:1.7}
+.stay-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}
+.stay-large{min-height:620px;position:relative;overflow:hidden}
+.stay-large img,.stay-small img{height:100%;object-fit:cover}
+.stay-large:after,.stay-small:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,22,17,.84),transparent 58%)}
+.stay-large .overlay,.stay-small .overlay{position:absolute;z-index:2;left:20px;right:20px;bottom:18px;color:white}
+.stay-large h3{font-family:'Marcellus',serif;font-size:42px;margin:4px 0}
+.stay-small h3{font-family:'Marcellus',serif;font-size:28px;margin:4px 0}
+.stay-large p,.stay-small p{font-size:11px;color:rgba(255,255,255,.88)}
+.stay-side{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.stay-small{min-height:302px;position:relative;overflow:hidden}
+.placeholder{background:linear-gradient(135deg,var(--green2),var(--brown));height:100%;display:grid;place-items:center;color:white;text-align:center;padding:20px}
+.placeholder strong{font-family:'Marcellus',serif;font-size:30px}
+
+/* SERVICES */
+.services-stack{display:grid;gap:0}
+.service-row{display:grid;grid-template-columns:1fr 1fr;min-height:540px;background:white}
+.service-row:nth-child(even) .service-media{order:2}
+.service-media{position:relative;overflow:hidden}
+.service-media img{height:100%;object-fit:cover}
+.service-copy{padding:54px;display:flex;flex-direction:column;justify-content:center}
+.service-copy h3{font-family:'Marcellus',serif;font-size:46px;font-weight:400;color:var(--green);margin:8px 0 13px}
+.service-copy p{color:var(--muted);line-height:1.7;max-width:500px}
+.service-copy .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+
+/* ABOUT */
+.about-wrap{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center}
+.about-photo{min-height:600px;overflow:hidden}
+.about-photo img{height:100%;object-fit:cover}
+.about-copy h2{font-size:clamp(42px,5vw,66px);color:var(--green);margin:8px 0}
+.about-copy p{color:var(--muted);line-height:1.8}
+.about-lines{display:grid;gap:0;margin-top:24px}
+.about-lines div{padding:15px 0;border-top:1px solid var(--line)}
+.about-lines b{display:block;margin-bottom:5px}
+.about-lines span{font-size:12px;color:var(--muted)}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:26px}
+.contact-panel{background:var(--green);color:white;padding:34px;min-height:520px}
+.contact-panel h2{font-family:'Marcellus',serif;font-size:44px;font-weight:400;margin:7px 0 12px}
+.contact-panel p{color:rgba(255,255,255,.7);line-height:1.7}
+.contact-form{background:white;padding:30px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.field{display:grid;gap:5px}
+.field.full{grid-column:1/-1}
+.field label{font-size:9px;text-transform:uppercase;font-weight:800;color:var(--muted)}
+.field input,.field select,.field textarea{padding:12px;border:1px solid var(--line);background:var(--cream)}
+.field textarea{min-height:120px}
+.success{display:none;margin-top:12px;background:#edf3ec;padding:12px;color:var(--green);font-size:12px}
+.success.show{display:block}
+
+/* FOOTER */
+footer{background:var(--green);color:white;padding:54px 0 24px;margin-top:0}
+.footer-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr .9fr;gap:28px}
+footer h4{font-family:'Marcellus',serif;font-size:19px;font-weight:400;margin:0 0 10px}
+footer p,footer a,footer button{font-size:11px;color:rgba(255,255,255,.78);line-height:1.65}
+footer a,footer button{display:block;background:none;border:0;padding:4px 0;text-align:left}
+.socials{display:flex;gap:7px;margin-top:11px}
+.socials a{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.1);display:grid;place-items:center;padding:0;color:white}
+.footer-bottom{margin-top:30px;border-top:1px solid rgba(255,255,255,.12);padding-top:16px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:rgba(255,255,255,.62);font-size:10px}
+
+/* MODALS */
+.layer{position:fixed;z-index:100;inset:0;background:rgba(2,8,6,.8);backdrop-filter:blur(7px);display:grid;place-items:center;padding:18px;opacity:0;pointer-events:none;transition:.22s}
+.layer.show{opacity:1;pointer-events:auto}
+.modal{width:min(850px,96vw);max-height:88vh;overflow:auto;background:white;padding:28px;position:relative}
+.modal h3{font-family:'Marcellus',serif;color:var(--green);font-size:38px;font-weight:400;margin:8px 0 18px}
+.close{position:absolute;right:14px;top:14px;width:38px;height:38px;border:1px solid var(--line);background:white}
+.estimate-box{background:var(--green);color:white;padding:22px;margin-top:14px}
+.estimate-box strong{font-size:36px;display:block;margin:6px 0}
+.estimate-box small{color:rgba(255,255,255,.65);line-height:1.5}
+
+.chat-fab{position:fixed;z-index:55;right:16px;bottom:16px;width:50px;height:50px;border-radius:50%;border:0;background:var(--brown);color:white;font-weight:800}
+.chat{position:fixed;z-index:56;right:16px;bottom:76px;width:min(350px,calc(100vw - 26px));background:white;box-shadow:0 20px 60px rgba(0,0,0,.18);display:none}
+.chat.show{display:block}
+.chat-head{background:var(--green);color:white;padding:13px}
+.chat-log{height:230px;overflow:auto;padding:11px;background:#faf7f0;display:grid;gap:7px;align-content:start}
+.msg{max-width:82%;padding:8px 10px;font-size:11px;line-height:1.5}
+.msg.bot{background:white}.msg.user{justify-self:end;background:#e8efe8}
+.chat-input{display:grid;grid-template-columns:1fr auto;gap:6px;padding:8px}
+.chat-input input{padding:9px;border:1px solid var(--line)}
+.chat-input button{border:0;background:var(--green);color:white;padding:0 11px}
+
+@media(max-width:940px){
+  .nav-links{display:none}.menu{display:block}
+  .home-intro-grid,.section-head,.about-wrap,.contact-grid{grid-template-columns:1fr}
+  .home-split{grid-template-columns:1fr}
+  .home-side{grid-template-columns:1fr 1fr 1fr}
+  .stay-grid{grid-template-columns:1fr}
+  .service-row{grid-template-columns:1fr}
+  .service-row:nth-child(even) .service-media{order:0}
+  .service-media{min-height:380px}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .container{width:min(calc(100% - 22px),1180px)}
+  .nav{height:68px}.app{padding-top:68px}.nav .btn{display:none}
+  .page-hero{min-height:76vh}.page-hero .inner{padding-bottom:28px}.page-hero h1{font-size:50px}
+  .home-intro,.section{padding:58px 0}
+  .home-intro h2,.section-head h2{font-size:40px}
+  .home-side{grid-template-columns:1fr}
+  .home-side button{min-height:220px}
+  .stay-large{min-height:430px}
+  .stay-side{grid-template-columns:1fr}
+  .stay-small{min-height:260px}
+  .service-copy{padding:28px 20px}.service-copy h3{font-size:38px}
+  .service-media{min-height:300px}
+  .about-photo{min-height:420px}
+  .contact-panel{min-height:auto}
+  .form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}
+  .footer-grid{grid-template-columns:1fr}
+}
+
+/* ===== PREMIUM TRANSITIONS V9 ===== */
+:root{
+  --ease:cubic-bezier(.22,.72,.24,1);
+  --ease-soft:cubic-bezier(.16,.7,.3,1);
+}
+
+/* route curtain */
+.route-curtain{
+  position:fixed;
+  z-index:95;
+  inset:0;
+  pointer-events:none;
+  background:var(--green);
+  transform:translateY(100%);
+}
+.route-curtain.enter{
+  animation:curtainIn .42s var(--ease) forwards;
+}
+.route-curtain.leave{
+  animation:curtainOut .52s var(--ease) forwards;
+}
+@keyframes curtainIn{
+  from{transform:translateY(100%)}
+  to{transform:translateY(0)}
+}
+@keyframes curtainOut{
+  from{transform:translateY(0)}
+  to{transform:translateY(-100%)}
+}
+
+/* page entrance refinement */
+.page{
+  transform-origin:50% 0%;
+}
+.page.active{
+  animation:pageReveal .72s var(--ease-soft);
+}
+@keyframes pageReveal{
+  from{opacity:0;transform:translateY(18px)}
+  to{opacity:1;transform:none}
+}
+
+/* hero image movement */
+.page-hero img{
+  transform:scale(1.035);
+  transition:transform 7s ease;
+}
+.page.active .page-hero img{
+  transform:scale(1);
+}
+.page-hero .inner > *{
+  opacity:0;
+  transform:translateY(18px);
+}
+.page.active .page-hero .inner > *{
+  animation:heroItemIn .72s var(--ease-soft) forwards;
+}
+.page.active .page-hero .inner > *:nth-child(1){animation-delay:.08s}
+.page.active .page-hero .inner > *:nth-child(2){animation-delay:.16s}
+.page.active .page-hero .inner > *:nth-child(3){animation-delay:.24s}
+.page.active .page-hero .inner > *:nth-child(4){animation-delay:.32s}
+@keyframes heroItemIn{
+  to{opacity:1;transform:none}
+}
+
+/* nav motion */
+.nav-links .route{
+  transition:opacity .24s ease, transform .24s ease;
+}
+.nav-links button:hover{
+  transform:translateY(-1px);
+}
+.nav-links button:after{
+  transform-origin:left center;
+  animation:none;
+}
+
+/* content reveals */
+.reveal{
+  opacity:0;
+  transform:translateY(26px);
+  transition:opacity .72s var(--ease-soft), transform .72s var(--ease-soft);
+}
+.reveal.is-visible{
+  opacity:1;
+  transform:none;
+}
+.reveal-delay-1{transition-delay:.08s}
+.reveal-delay-2{transition-delay:.16s}
+.reveal-delay-3{transition-delay:.24s}
+
+/* media hover */
+.home-stay img,
+.home-side img,
+.stay-large img,
+.stay-small img,
+.service-media img,
+.about-photo img{
+  transition:transform .75s var(--ease-soft);
+}
+.home-stay:hover img,
+.home-side button:hover img,
+.stay-large:hover img,
+.stay-small:hover img,
+.service-row:hover .service-media img,
+.about-photo:hover img{
+  transform:scale(1.035);
+}
+
+/* softer overlay copy movement */
+.home-stay-copy,
+.stay-large .overlay,
+.stay-small .overlay{
+  transition:transform .45s var(--ease-soft);
+}
+.home-stay:hover .home-stay-copy,
+.stay-large:hover .overlay,
+.stay-small:hover .overlay{
+  transform:translateY(-4px);
+}
+
+/* buttons */
+.btn{
+  transition:transform .22s ease, background-color .22s ease, color .22s ease, border-color .22s ease, box-shadow .22s ease;
+}
+.btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 24px rgba(13,45,35,.12);
+}
+.btn:active{
+  transform:translateY(0);
+}
+
+/* modals */
+.layer{
+  transition:opacity .25s ease;
+}
+.modal{
+  transform:translateY(18px) scale(.985);
+  opacity:0;
+  transition:transform .34s var(--ease-soft), opacity .34s ease;
+}
+.layer.show .modal{
+  transform:none;
+  opacity:1;
+}
+
+/* mobile menu */
+.mobile-menu{
+  transition:transform .38s var(--ease-soft);
+}
+
+/* chat */
+.chat{
+  transform-origin:bottom right;
+}
+.chat.show{
+  animation:chatIn .28s var(--ease-soft);
+}
+@keyframes chatIn{
+  from{opacity:0;transform:translateY(10px) scale(.97)}
+  to{opacity:1;transform:none}
+}
+
+/* page-specific blocks */
+.home-split > *,
+.stay-grid > *,
+.service-row,
+.about-wrap > *,
+.contact-grid > *{
+  will-change:transform,opacity;
+}
+
+@media(prefers-reduced-motion:reduce){
+  *,
+  *::before,
+  *::after{
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.01ms!important;
+    scroll-behavior:auto!important;
+  }
+  .route-curtain{display:none!important}
+}
+
+
+/* SEO/readability polish */
+.section p,.about-copy p,.service-copy p,.home-intro p{font-size:15px}
+.service-copy p{max-width:560px}
+footer p,footer a,footer button{font-size:12px}
+.page-hero p{font-weight:500}
+.home-stay-copy p,.stay-large p,.stay-small p{font-weight:500}
+@media(max-width:620px){
+  .page-hero p{font-size:14px}
+  .section p,.about-copy p,.service-copy p,.home-intro p{font-size:14px}
+}
+
+
+/* ===== V11 CLEAN VISUAL REVEALS ===== */
+
+/* lighter homepage rhythm */
+.home-intro{padding:78px 0 86px}
+.home-intro-grid{margin-bottom:28px}
+.home-intro-grid p{max-width:520px}
+.home-split{align-items:stretch}
+
+/* main stay card */
+.home-stay{min-height:620px}
+.home-stay-copy{
+  left:28px;
+  right:28px;
+  bottom:28px;
+  max-width:620px;
+}
+.home-stay-copy h3{font-size:48px}
+.home-stay-copy p{font-size:14px;line-height:1.55;max-width:440px}
+
+/* reveal cards */
+.home-side{
+  display:grid;
+  grid-template-rows:repeat(3,1fr);
+  gap:12px;
+}
+.reveal-card{
+  position:relative;
+  min-height:0;
+  overflow:hidden;
+  border:0;
+  padding:0;
+  color:white;
+  text-align:left;
+  isolation:isolate;
+}
+.reveal-card img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .75s var(--ease-soft);
+}
+.reveal-shade{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  background:linear-gradient(180deg,rgba(5,22,17,.08),rgba(5,22,17,.78));
+  transition:background .35s ease;
+}
+.reveal-copy,
+.reveal-detail{
+  position:absolute;
+  z-index:2;
+  left:18px;
+  right:18px;
+  bottom:16px;
+}
+.reveal-copy{
+  transition:transform .4s var(--ease-soft),opacity .3s ease;
+}
+.reveal-copy strong{
+  display:block;
+  font-family:'Marcellus',serif;
+  font-size:26px;
+  font-weight:400;
+  line-height:1.05;
+  margin-top:4px;
+}
+.reveal-copy small{
+  display:block;
+  margin-top:8px;
+  font-size:9px;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  opacity:.68;
+}
+.reveal-kicker{
+  font-size:9px;
+  text-transform:uppercase;
+  letter-spacing:.15em;
+  font-weight:800;
+  opacity:.8;
+}
+.reveal-detail{
+  opacity:0;
+  transform:translateY(14px);
+  transition:transform .4s var(--ease-soft),opacity .3s ease;
+}
+.reveal-detail strong{
+  display:block;
+  font-family:'Marcellus',serif;
+  font-size:24px;
+  font-weight:400;
+  margin-bottom:5px;
+}
+.reveal-detail span{
+  font-size:11px;
+  color:rgba(255,255,255,.82);
+}
+.reveal-card:hover img,
+.reveal-card:focus img{
+  transform:scale(1.045);
+}
+.reveal-card:hover .reveal-shade,
+.reveal-card:focus .reveal-shade{
+  background:linear-gradient(180deg,rgba(5,22,17,.12),rgba(5,22,17,.9));
+}
+.reveal-card:hover .reveal-copy,
+.reveal-card:focus .reveal-copy{
+  opacity:0;
+  transform:translateY(-10px);
+}
+.reveal-card:hover .reveal-detail,
+.reveal-card:focus .reveal-detail{
+  opacity:1;
+  transform:none;
+}
+
+/* fix all stay-card text stacking */
+.stay-large .overlay,
+.stay-small .overlay{
+  left:18px;
+  right:18px;
+  bottom:16px;
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+.stay-large .overlay h3,
+.stay-small .overlay h3,
+.stay-large .overlay p,
+.stay-small .overlay p{
+  margin:0;
+}
+.stay-small .overlay .eyebrow{
+  margin-bottom:2px;
+}
+.stay-small h3{
+  font-size:25px;
+  line-height:1.05;
+}
+.stay-large h3{
+  line-height:1.02;
+}
+
+/* services page, less text, more reveal */
+.service-row{
+  min-height:600px;
+}
+.service-copy{
+  padding:64px 56px;
+}
+.service-copy h3{
+  font-size:52px;
+  max-width:520px;
+}
+.service-copy p{
+  font-size:14px;
+  max-width:420px;
+}
+.service-copy .actions{
+  margin-top:22px;
+}
+
+/* cleaner page heroes */
+.page-hero .inner{
+  max-width:820px;
+}
+.page-hero p{
+  max-width:560px;
+}
+.page-hero h1{
+  text-wrap:balance;
+}
+
+/* readable footer */
+footer p,footer a,footer button{
+  color:rgba(255,255,255,.82);
+}
+.footer-bottom{
+  color:rgba(255,255,255,.62);
+}
+
+/* tap reveal on touch */
+@media(hover:none){
+  .reveal-copy small{display:none}
+  .reveal-detail{
+    opacity:1;
+    transform:none;
+    position:relative;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    padding:0 18px 16px;
+    margin-top:auto;
+  }
+  .reveal-copy{
+    position:relative;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    padding:18px 18px 6px;
+  }
+  .reveal-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+  }
+}
+
+@media(max-width:940px){
+  .home-stay{min-height:520px}
+  .home-side{
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:none;
+  }
+  .reveal-card{min-height:240px}
+}
+
+@media(max-width:620px){
+  .home-intro{padding:58px 0 68px}
+  .home-stay{min-height:430px}
+  .home-stay-copy h3{font-size:38px}
+  .home-side{
+    grid-template-columns:1fr;
+  }
+  .reveal-card{min-height:260px}
+  .service-row{min-height:auto}
+  .service-copy{padding:30px 20px}
+  .service-copy h3{font-size:38px}
+}
+
+
+/* ===== V12 OVERLAP FIX ===== */
+
+/* Old homepage rule was absolutely positioning every span inside .home-side.
+   Neutralize it for the new reveal-card system. */
+.home-side .reveal-card span,
+.home-side .reveal-card strong,
+.home-side .reveal-card small{
+  position:static !important;
+  left:auto !important;
+  right:auto !important;
+  top:auto !important;
+  bottom:auto !important;
+  display:block;
+  width:auto;
+  max-width:100%;
+  text-align:left;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+
+/* Ensure each text layer is isolated and never collides */
+.reveal-copy,
+.reveal-detail{
+  display:block;
+  max-width:calc(100% - 36px);
+}
+.reveal-copy strong,
+.reveal-detail strong{
+  line-height:1.08;
+  margin:4px 0 0;
+}
+.reveal-detail span{
+  line-height:1.45;
+  margin-top:5px;
+}
+.reveal-kicker{
+  line-height:1.2;
+  margin:0;
+}
+.reveal-copy small{
+  line-height:1.3;
+  margin-top:8px;
+}
+
+/* Keep the two reveal states from visually stacking */
+.reveal-card .reveal-detail{
+  pointer-events:none;
+}
+.reveal-card:hover .reveal-copy,
+.reveal-card:focus-visible .reveal-copy{
+  visibility:hidden;
+}
+.reveal-card:hover .reveal-detail,
+.reveal-card:focus-visible .reveal-detail{
+  visibility:visible;
+}
+.reveal-card:not(:hover):not(:focus-visible) .reveal-detail{
+  visibility:hidden;
+}
+
+/* Stays overlays: keep text in a clean vertical stack */
+.stay-large .overlay,
+.stay-small .overlay{
+  align-items:flex-start;
+}
+.stay-large .overlay > *,
+.stay-small .overlay > *{
+  position:static !important;
+  width:auto;
+  max-width:100%;
+}
+.stay-large .overlay h3,
+.stay-small .overlay h3{
+  line-height:1.08;
+  white-space:normal;
+  overflow-wrap:anywhere;
+}
+.stay-large .overlay p,
+.stay-small .overlay p{
+  line-height:1.4;
+}
+
+/* Mobile/touch: show only one text state cleanly */
+@media(hover:none){
+  .reveal-card .reveal-copy{
+    visibility:visible !important;
+    opacity:1 !important;
+    transform:none !important;
+  }
+  .reveal-card .reveal-detail{
+    visibility:visible !important;
+    opacity:1 !important;
+    transform:none !important;
+    max-width:100%;
+  }
+}
+
+
+/* ===== V13 HOME REDESIGN ===== */
+
+.home-hero{
+  min-height:calc(100svh - 76px);
+  position:relative;
+  color:white;
+  overflow:hidden;
+  background:var(--green);
+}
+.home-hero-image{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transform:scale(1.025);
+  animation:homeHeroDrift 10s ease-out forwards;
+}
+@keyframes homeHeroDrift{
+  to{transform:scale(1)}
+}
+.home-hero-shade{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg,rgba(5,22,17,.86) 0%,rgba(5,22,17,.48) 44%,rgba(5,22,17,.14) 78%),
+    linear-gradient(0deg,rgba(5,22,17,.46),transparent 58%);
+}
+.home-hero-inner{
+  position:relative;
+  z-index:2;
+  min-height:calc(100svh - 76px);
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:40px;
+  padding-bottom:54px;
+}
+.home-hero-copy{
+  max-width:780px;
+}
+.home-hero-copy h1{
+  font-size:clamp(62px,8vw,116px);
+  margin:12px 0 16px;
+  text-wrap:balance;
+}
+.home-hero-copy p{
+  max-width:560px;
+  color:rgba(255,255,255,.9);
+  font-size:15px;
+  line-height:1.7;
+}
+.home-hero-note{
+  text-align:right;
+  margin-bottom:10px;
+  color:rgba(255,255,255,.76);
+}
+.home-hero-note span{
+  display:block;
+  font-size:9px;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+}
+.home-hero-note strong{
+  display:block;
+  font-family:'Marcellus',serif;
+  font-size:28px;
+  font-weight:400;
+}
+.home-scroll-cue{
+  position:absolute;
+  z-index:2;
+  left:50%;
+  bottom:18px;
+  transform:translateX(-50%);
+  color:rgba(255,255,255,.72);
+  font-size:9px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+
+.home-discover{
+  padding:110px 0 120px;
+  background:var(--ivory);
+}
+.home-discover-head{
+  display:grid;
+  grid-template-columns:1fr .6fr;
+  gap:40px;
+  align-items:end;
+  margin-bottom:34px;
+}
+.home-discover-head h2{
+  font-size:clamp(44px,5.7vw,76px);
+  color:var(--green);
+  margin:8px 0 0;
+}
+.home-discover-head p{
+  color:var(--muted);
+  line-height:1.65;
+  max-width:360px;
+  justify-self:end;
+}
+
+.experience-shell{
+  display:grid;
+  grid-template-columns:230px 1fr;
+  min-height:650px;
+  background:#fff;
+  border:1px solid var(--line);
+}
+.experience-tabs{
+  display:flex;
+  flex-direction:column;
+  background:var(--cream);
+  border-right:1px solid var(--line);
+}
+.experience-tab{
+  flex:1;
+  min-height:120px;
+  border:0;
+  border-bottom:1px solid var(--line);
+  background:transparent;
+  color:var(--green);
+  text-align:left;
+  padding:20px 22px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  transition:background .3s ease,color .3s ease,padding .3s ease;
+}
+.experience-tab:last-child{border-bottom:0}
+.experience-tab span{
+  position:static !important;
+  font-size:9px;
+  letter-spacing:.14em;
+  opacity:.52;
+}
+.experience-tab strong{
+  font-family:'Marcellus',serif;
+  font-size:25px;
+  font-weight:400;
+}
+.experience-tab:hover,
+.experience-tab.active{
+  background:var(--green);
+  color:#fff;
+  padding-left:28px;
+}
+.experience-tab.active span{
+  opacity:.72;
+}
+
+.experience-stage{
+  display:grid;
+  grid-template-rows:minmax(0,1fr) auto;
+  overflow:hidden;
+  min-width:0;
+}
+.experience-image-wrap{
+  position:relative;
+  min-height:470px;
+  overflow:hidden;
+  background:var(--green2);
+}
+.experience-image-wrap img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:opacity .36s ease,transform .75s var(--ease-soft);
+}
+.experience-stage.switching .experience-image-wrap img{
+  opacity:.18;
+  transform:scale(1.035);
+}
+.experience-gradient{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,transparent 55%,rgba(5,22,17,.35));
+  pointer-events:none;
+}
+.experience-index{
+  position:absolute;
+  right:22px;
+  top:18px;
+  z-index:2;
+  font-family:'Marcellus',serif;
+  font-size:64px;
+  color:rgba(255,255,255,.7);
+  line-height:1;
+}
+.experience-copy{
+  padding:28px 34px 32px;
+  background:#fff;
+  min-height:180px;
+  transition:opacity .22s ease,transform .32s var(--ease-soft);
+}
+.experience-stage.switching .experience-copy{
+  opacity:0;
+  transform:translateY(10px);
+}
+.experience-copy h3{
+  font-size:46px;
+  color:var(--green);
+  margin:6px 0 8px;
+}
+.experience-copy p{
+  max-width:610px;
+  color:var(--muted);
+  line-height:1.6;
+  margin:0;
+}
+.experience-link{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:17px;
+  color:var(--green);
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.07em;
+  font-weight:800;
+  border-bottom:1px solid var(--green);
+  padding-bottom:3px;
+}
+.experience-link span{
+  position:static !important;
+  transition:transform .2s ease;
+}
+.experience-link:hover span{transform:translate(3px,-3px)}
+
+.home-close{
+  min-height:620px;
+  position:relative;
+  display:grid;
+  align-items:end;
+  overflow:hidden;
+  color:#fff;
+}
+.home-close > img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.home-close-shade{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg,rgba(5,22,17,.88),rgba(5,22,17,.26));
+}
+.home-close-inner{
+  position:relative;
+  z-index:2;
+  padding-bottom:52px;
+  max-width:1180px;
+}
+.home-close-inner h2{
+  font-size:clamp(52px,6vw,84px);
+  margin:8px 0 10px;
+  max-width:800px;
+}
+.home-close-inner p{
+  color:rgba(255,255,255,.86);
+  margin:0;
+}
+
+/* Ensure footer follows cleanly */
+.page[data-page="home"] footer{
+  margin-top:0;
+}
+
+/* touch/mobile */
+@media(max-width:940px){
+  .home-hero-note{display:none}
+  .home-discover-head{grid-template-columns:1fr}
+  .home-discover-head p{justify-self:start}
+  .experience-shell{
+    grid-template-columns:1fr;
+    min-height:0;
+  }
+  .experience-tabs{
+    flex-direction:row;
+    border-right:0;
+    border-bottom:1px solid var(--line);
+    overflow-x:auto;
+  }
+  .experience-tab{
+    min-width:160px;
+    min-height:92px;
+    border-bottom:0;
+    border-right:1px solid var(--line);
+  }
+  .experience-tab:last-child{border-right:0}
+  .experience-image-wrap{min-height:430px}
+}
+@media(max-width:620px){
+  .home-hero{min-height:calc(92svh - 68px)}
+  .home-hero-inner{
+    min-height:calc(92svh - 68px);
+    padding-bottom:34px;
+  }
+  .home-hero-copy h1{font-size:54px}
+  .home-hero-copy p{font-size:14px}
+  .home-scroll-cue{display:none}
+  .home-discover{padding:68px 0 78px}
+  .home-discover-head h2{font-size:42px}
+  .experience-shell{margin-inline:-1px}
+  .experience-tabs{scrollbar-width:none}
+  .experience-tabs::-webkit-scrollbar{display:none}
+  .experience-tab{
+    min-width:132px;
+    min-height:82px;
+    padding:14px 15px;
+  }
+  .experience-tab strong{font-size:20px}
+  .experience-tab:hover,
+  .experience-tab.active{padding-left:18px}
+  .experience-image-wrap{min-height:330px}
+  .experience-index{font-size:46px}
+  .experience-copy{padding:22px 20px 26px;min-height:170px}
+  .experience-copy h3{font-size:36px}
+  .home-close{min-height:500px}
+  .home-close-inner{padding-bottom:34px}
+}
+
+
+/* ELITE brand logo */
+.brand-logo{
+  display:block;
+  width:154px;
+  max-height:48px;
+  object-fit:contain;
+  object-position:left center;
+  filter:brightness(0) invert(1);
+}
+.site-header .brand,
+.mobile-menu .brand,
+footer .brand{
+  min-width:154px;
+}
+@media(max-width:620px){
+  .brand-logo{width:132px;max-height:40px}
+}
+
+
+/* V15 visibility fixes */
+.home-close .btn-outline,
+.contact-panel .btn-outline{
+  background:#fff !important;
+  color:var(--green) !important;
+  border-color:#fff !important;
+}
+.home-close .btn-outline:hover,
+.contact-panel .btn-outline:hover{
+  background:var(--ivory) !important;
+  color:var(--green) !important;
+  border-color:var(--ivory) !important;
+}
+
+/* Keep visible focus state */
+.home-close .btn-outline:focus-visible,
+.contact-panel .btn-outline:focus-visible{
+  outline:3px solid #fff;
+  outline-offset:3px;
+}
+
+
+/* ===== V16 STAYS PAGE REDESIGN ===== */
+.stays-hero{
+  min-height:82vh;
+  position:relative;
+  display:grid;
+  align-items:end;
+  overflow:hidden;
+  color:#fff;
+  background:var(--green);
+}
+.stays-hero > img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.stays-hero-shade{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg,rgba(5,22,17,.88) 0%,rgba(5,22,17,.46) 48%,rgba(5,22,17,.18) 78%),
+    linear-gradient(0deg,rgba(5,22,17,.58),transparent 58%);
+}
+.stays-hero-inner{
+  position:relative;
+  z-index:2;
+  padding-bottom:40px;
+}
+.stays-hero h1{
+  font-size:clamp(62px,8vw,112px);
+  margin:9px 0 12px;
+}
+.stays-hero p{
+  max-width:620px;
+  color:rgba(255,255,255,.9);
+  line-height:1.65;
+  margin:0;
+}
+.stays-booking-bar{
+  display:grid;
+  grid-template-columns:1fr 1fr .8fr .9fr auto;
+  gap:1px;
+  max-width:1080px;
+  margin-top:28px;
+  background:rgba(255,250,243,.96);
+  color:var(--ink);
+}
+.stays-booking-bar label{
+  display:grid;
+  gap:4px;
+  padding:10px 12px;
+  border-right:1px solid var(--line);
+}
+.stays-booking-bar label span{
+  position:static !important;
+  font-size:8px;
+  text-transform:uppercase;
+  letter-spacing:.13em;
+  font-weight:800;
+  color:var(--muted);
+}
+.stays-booking-bar input,
+.stays-booking-bar select{
+  width:100%;
+  border:0;
+  outline:0;
+  background:transparent;
+  color:var(--ink);
+  font-weight:700;
+  font-size:12px;
+}
+.stays-booking-bar .btn{
+  margin:7px;
+}
+
+.stay-explorer-section{
+  padding:105px 0 120px;
+  background:var(--ivory);
+}
+.stay-explorer-head{
+  display:grid;
+  grid-template-columns:1fr .55fr;
+  gap:40px;
+  align-items:end;
+  margin-bottom:30px;
+}
+.stay-explorer-head h2{
+  font-size:clamp(46px,5.8vw,78px);
+  color:var(--green);
+  margin:7px 0 0;
+}
+.stay-explorer-head p{
+  justify-self:end;
+  color:var(--muted);
+  line-height:1.6;
+}
+
+.stay-selector{
+  display:grid;
+  grid-template-columns:230px 1fr;
+  min-height:690px;
+  background:#fff;
+  border:1px solid var(--line);
+}
+.stay-selector-tabs{
+  display:flex;
+  flex-direction:column;
+  background:var(--cream);
+  border-right:1px solid var(--line);
+}
+.stay-size-tab{
+  flex:1;
+  min-height:140px;
+  padding:20px 22px;
+  border:0;
+  border-bottom:1px solid var(--line);
+  background:transparent;
+  color:var(--green);
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  transition:background .28s ease,color .28s ease,padding .28s ease;
+}
+.stay-size-tab:last-child{border-bottom:0}
+.stay-size-tab span,
+.stay-size-tab strong,
+.stay-size-tab small{
+  position:static !important;
+}
+.stay-size-tab span{
+  font-size:9px;
+  letter-spacing:.14em;
+  opacity:.5;
+}
+.stay-size-tab strong{
+  font-family:'Marcellus',serif;
+  font-size:24px;
+  font-weight:400;
+  line-height:1.05;
+}
+.stay-size-tab small{
+  font-size:9px;
+  color:var(--muted);
+}
+.stay-size-tab.active,
+.stay-size-tab:hover{
+  background:var(--green);
+  color:#fff;
+  padding-left:28px;
+}
+.stay-size-tab.active small,
+.stay-size-tab:hover small{
+  color:rgba(255,255,255,.72);
+}
+
+.stay-selector-stage{
+  display:grid;
+  grid-template-rows:minmax(0,1fr) auto;
+  min-width:0;
+}
+.stay-selector-media{
+  position:relative;
+  min-height:500px;
+  display:grid;
+  grid-template-columns:1.4fr .6fr;
+  gap:8px;
+  padding:8px;
+  overflow:hidden;
+  background:#f2ede5;
+}
+.stay-main-image,
+.stay-secondary-image{
+  position:relative;
+  overflow:hidden;
+  min-width:0;
+}
+.stay-main-image img,
+.stay-secondary-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:opacity .28s ease,transform .7s var(--ease-soft);
+}
+.stay-selector-stage.switching img{
+  opacity:.25;
+  transform:scale(1.03);
+}
+.stay-number{
+  position:absolute;
+  right:20px;
+  top:18px;
+  z-index:2;
+  font-family:'Marcellus',serif;
+  font-size:62px;
+  line-height:1;
+  color:rgba(255,255,255,.84);
+  text-shadow:0 3px 16px rgba(0,0,0,.22);
+}
+.stay-selector-copy{
+  padding:27px 34px 31px;
+  min-height:205px;
+  background:#fff;
+  transition:opacity .24s ease,transform .32s var(--ease-soft);
+}
+.stay-selector-stage.switching .stay-selector-copy{
+  opacity:0;
+  transform:translateY(9px);
+}
+.stay-selector-copy h3{
+  font-size:45px;
+  color:var(--green);
+  margin:5px 0 7px;
+}
+.stay-selector-copy p{
+  color:var(--muted);
+  margin:0;
+  line-height:1.6;
+}
+.stay-mini-facts{
+  display:flex;
+  gap:7px;
+  flex-wrap:wrap;
+  margin:16px 0 18px;
+}
+.stay-mini-facts span{
+  position:static !important;
+  display:inline-flex;
+  padding:7px 9px;
+  border:1px solid var(--line);
+  font-size:9px;
+  text-transform:uppercase;
+  letter-spacing:.07em;
+  color:var(--green);
+  font-weight:800;
+}
+.stay-selector-actions{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+}
+.stay-gallery-link{
+  background:none;
+  border:0;
+  color:var(--green);
+  padding:0 0 3px;
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:.07em;
+  font-weight:800;
+  border-bottom:1px solid var(--green);
+}
+
+.stay-mood{
+  min-height:600px;
+  position:relative;
+  display:grid;
+  align-items:end;
+  overflow:hidden;
+  color:#fff;
+}
+.stay-mood > img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.stay-mood-shade{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg,rgba(5,22,17,.86),rgba(5,22,17,.22));
+}
+.stay-mood-inner{
+  position:relative;
+  z-index:2;
+  padding-bottom:48px;
+}
+.stay-mood h2{
+  font-size:clamp(52px,6vw,86px);
+  margin:8px 0 8px;
+}
+.stay-mood p{
+  color:rgba(255,255,255,.88);
+  margin:0 0 18px;
+}
+
+@media(max-width:980px){
+  .stays-booking-bar{
+    grid-template-columns:1fr 1fr;
+  }
+  .stays-booking-bar .btn{
+    grid-column:1/-1;
+  }
+  .stay-explorer-head{
+    grid-template-columns:1fr;
+  }
+  .stay-explorer-head p{
+    justify-self:start;
+  }
+  .stay-selector{
+    grid-template-columns:1fr;
+  }
+  .stay-selector-tabs{
+    flex-direction:row;
+    border-right:0;
+    border-bottom:1px solid var(--line);
+    overflow-x:auto;
+  }
+  .stay-size-tab{
+    min-width:165px;
+    min-height:105px;
+    border-bottom:0;
+    border-right:1px solid var(--line);
+  }
+  .stay-size-tab:last-child{border-right:0}
+}
+@media(max-width:620px){
+  .stays-hero{min-height:82svh}
+  .stays-hero-inner{padding-bottom:24px}
+  .stays-hero h1{font-size:54px}
+  .stays-booking-bar{
+    grid-template-columns:1fr 1fr;
+    margin-top:20px;
+  }
+  .stays-booking-bar label{
+    padding:8px 9px;
+  }
+  .stay-explorer-section{
+    padding:66px 0 78px;
+  }
+  .stay-explorer-head h2{
+    font-size:42px;
+  }
+  .stay-selector-tabs{
+    scrollbar-width:none;
+  }
+  .stay-selector-tabs::-webkit-scrollbar{display:none}
+  .stay-size-tab{
+    min-width:138px;
+    min-height:90px;
+    padding:13px 14px;
+  }
+  .stay-size-tab strong{font-size:20px}
+  .stay-size-tab.active,
+  .stay-size-tab:hover{padding-left:17px}
+  .stay-selector-media{
+    grid-template-columns:1fr;
+    min-height:0;
+  }
+  .stay-main-image{min-height:330px}
+  .stay-secondary-image{min-height:190px}
+  .stay-number{font-size:44px}
+  .stay-selector-copy{
+    padding:22px 19px 26px;
+  }
+  .stay-selector-copy h3{
+    font-size:36px;
+  }
+  .stay-mood{min-height:480px}
+  .stay-mood-inner{padding-bottom:32px}
+}
+
+
+/* ===== V17 COMMERCIAL REFINEMENT ===== */
+:focus-visible{outline:3px solid #d8ad7c;outline-offset:3px}
+.skip-link{position:fixed;left:12px;top:-80px;z-index:200;background:#fff;color:var(--green);padding:10px 14px;border-radius:2px;font-weight:700;transition:top .2s}
+.skip-link:focus{top:12px}
+.btn,button,a,input,select,textarea{min-height:44px}
+.site-header{transition:background .25s ease,box-shadow .25s ease,transform .25s ease}
+.site-header.scrolled{background:rgba(7,28,22,.985);box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.site-header.compact .nav{height:68px}.site-header.compact + .mobile-menu{}
+.nav-links .route[aria-current="page"]{opacity:1}
+.concept-badge{display:inline-flex;margin-top:12px;padding:7px 9px;border:1px solid rgba(255,255,255,.34);background:rgba(7,28,22,.38);backdrop-filter:blur(8px);font-size:9px;line-height:1.3;text-transform:uppercase;letter-spacing:.09em;color:rgba(255,255,255,.88)}
+img{height:auto}
+.page img:not(.brand-logo){background:#e8dfd1}
+.service-hero .inner,.about-hero .inner,.contact-hero .inner{max-width:900px}
+.services-refined .section-head{margin-bottom:34px}
+.service-rail{display:grid;gap:14px}
+.service-feature{display:grid;grid-template-columns:1.08fr .92fr;min-height:500px;background:#fff;border:1px solid var(--line);overflow:hidden}
+.service-feature.reverse{grid-template-columns:.92fr 1.08fr}.service-feature.reverse .service-feature-media{order:2}
+.service-feature-media{min-height:500px;overflow:hidden}.service-feature-media img{height:100%;object-fit:cover;transition:transform .7s var(--ease-soft)}
+.service-feature:hover .service-feature-media img{transform:scale(1.025)}
+.service-feature-copy{padding:48px;display:flex;flex-direction:column;justify-content:center}
+.service-feature-copy h3{font-family:'Marcellus',serif;font-size:46px;font-weight:400;line-height:1.02;color:var(--green);margin:8px 0 18px}
+.service-tags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:22px}.service-tags span{padding:7px 9px;border:1px solid var(--line);font-size:9px;text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--green)}
+.service-close{background:var(--green);color:#fff;padding:64px 0}.service-close-inner{display:flex;align-items:end;justify-content:space-between;gap:30px}.service-close h2{font-size:clamp(42px,5vw,68px);margin:6px 0 0;max-width:760px}
+.about-story{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.about-story-media{min-height:600px;overflow:hidden}.about-story-media img{height:100%;object-fit:cover}.about-story-copy h2{font-size:clamp(44px,5vw,68px);color:var(--green);margin:7px 0 14px}.about-story-copy>p{color:var(--muted);line-height:1.7;max-width:560px}
+.about-pillars{display:grid;grid-template-columns:1fr 1fr;margin-top:28px;border-top:1px solid var(--line);border-left:1px solid var(--line)}.about-pillar{border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent;text-align:left;padding:18px;color:var(--green)}.about-pillar span,.about-pillar strong,.about-pillar small{display:block;position:static!important}.about-pillar span{font-size:9px;opacity:.55}.about-pillar strong{font-family:'Marcellus',serif;font-size:24px;font-weight:400;margin:6px 0}.about-pillar small{font-size:10px;color:var(--muted);line-height:1.45}.about-pillar:hover,.about-pillar.active{background:var(--green);color:#fff}.about-pillar:hover small,.about-pillar.active small{color:rgba(255,255,255,.76)}
+.about-close{padding:76px 0;background:var(--green);color:#fff;text-align:center}.about-close h2{font-size:clamp(44px,5.3vw,72px);max-width:900px;margin:8px auto 22px}
+.contact-refined .contact-grid{align-items:stretch}.contact-panel{min-height:0;border-radius:0}.contact-shortcuts{display:grid;gap:8px;margin-top:24px}.contact-shortcut{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 15px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.04);color:#fff;text-align:left}.contact-shortcut span,.contact-shortcut strong{position:static!important}.contact-shortcut span{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.64)}.contact-shortcut strong{font-size:12px}.contact-shortcut:hover{background:#fff;color:var(--green)}.contact-shortcut:hover span{color:var(--green)}
+.contact-form{border:1px solid var(--line)}.contact-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}.copy-enquiry{border-color:var(--green);color:var(--green)}.form-status{margin-top:12px;padding:0;font-size:12px;line-height:1.5;color:var(--green)}.form-status.ready{padding:12px;background:#edf3ec}.form-status.error{padding:12px;background:#f8eae6;color:#8b392b}.integration-note{font-size:10px!important;color:var(--muted)!important;line-height:1.5;margin:12px 0 0}.field-error{min-height:14px;font-size:10px;color:#9b3d31}.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#b24b3b;background:#fff8f6}
+.layer[aria-hidden="true"]{visibility:hidden}.layer.show{visibility:visible}.request-modal{border-radius:2px}.modal-actions{margin-top:15px}.concierge-options{display:grid;grid-template-columns:1fr 1fr;gap:8px}.concierge-options button{padding:18px;border:1px solid var(--line);background:var(--cream);text-align:left;color:var(--green)}.concierge-options span,.concierge-options strong{display:block;position:static!important}.concierge-options span{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}.concierge-options strong{font-family:'Marcellus',serif;font-size:22px;font-weight:400;margin-top:6px}.concierge-options button:hover{background:var(--green);color:#fff}.concierge-options button:hover span{color:rgba(255,255,255,.7)}
+.chat-fab{width:auto;min-width:58px;padding:0 14px;border-radius:999px;font-size:10px;text-transform:uppercase;letter-spacing:.08em}
+footer button,footer a{min-height:36px}.footer-grid>div:first-child p{max-width:290px}
+.contact-focus{display:inline-flex!important;align-items:center}
+@media(max-width:980px){.service-feature,.service-feature.reverse{grid-template-columns:1fr}.service-feature.reverse .service-feature-media{order:0}.service-feature-media{min-height:380px}.service-close-inner{display:block}.service-close .btn{margin-top:20px}.about-story{grid-template-columns:1fr}.about-story-media{min-height:470px}}
+@media(max-width:620px){.concept-badge{max-width:310px}.service-feature-media{min-height:280px}.service-feature-copy{padding:28px 20px}.service-feature-copy h3{font-size:36px}.about-story-media{min-height:380px}.about-pillars{grid-template-columns:1fr}.concierge-options{grid-template-columns:1fr}.contact-shortcuts{margin-top:18px}.modal{padding:24px 18px}.footer-grid{gap:20px}}
+@media(prefers-reduced-motion:reduce){.site-header,.service-feature-media img{transition:none!important}}
+
+
+/* 320px contact min-content fix */
+.contact-grid,.contact-panel,.contact-form,.form-grid,.field{min-width:0}
+.contact-panel,.contact-form{width:100%;max-width:100%}
+.field input,.field select,.field textarea{min-width:0;max-width:100%}
+
+
+.visual-disclosure{position:absolute;z-index:3;right:18px;bottom:16px;padding:6px 8px;background:rgba(7,28,22,.7);backdrop-filter:blur(6px);color:rgba(255,255,255,.84);font-size:8px;text-transform:uppercase;letter-spacing:.09em;line-height:1}.service-feature-media{position:relative}.visual-disclosure.media-chip{right:12px;bottom:12px}
+
+
+.route-curtain{visibility:hidden}.route-curtain.enter,.route-curtain.leave{visibility:visible}
+
+[hidden]{display:none!important}
+.reveal{opacity:1!important;transform:none!important}
+.motion-ready .reveal{opacity:0!important;transform:translateY(26px)!important}
+.motion-ready .reveal.is-visible{opacity:1!important;transform:none!important}
+
+
+/* ===== V18 FINAL HANDOVER ADDITIONS ===== */
+.stay-image-note{display:inline-flex;margin-top:12px;padding:7px 9px;border:1px solid rgba(255,255,255,.32);background:rgba(7,28,22,.38);backdrop-filter:blur(8px);font-size:8px;line-height:1.35;text-transform:uppercase;letter-spacing:.08em;color:rgba(255,255,255,.86)}
+/* About image: fill the visual column rather than floating at the top */
+.about-story{align-items:stretch;grid-template-columns:1.08fr .92fr}
+.about-story-media{position:relative;min-height:clamp(620px,58vw,760px);height:100%}
+.about-story-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+/* Journal */
+.journal-hero{padding:150px 0 86px;background:var(--green);color:#fff}
+.journal-hero-inner{max-width:930px}.journal-hero h1{font-size:clamp(58px,7.2vw,104px);margin:10px 0 16px}.journal-hero p{max-width:650px;color:rgba(255,255,255,.82);line-height:1.7;font-size:15px}
+.journal-list-section{padding:92px 0 110px;background:var(--ivory)}
+.journal-feature{margin-bottom:54px}.journal-feature-card{display:grid;grid-template-columns:1.14fr .86fr;background:#fff;border:1px solid var(--line);min-height:520px;overflow:hidden}.journal-feature-media{min-height:520px;overflow:hidden}.journal-feature-media img{height:100%;object-fit:cover;transition:transform .7s var(--ease-soft)}.journal-feature-card:hover img{transform:scale(1.025)}.journal-feature-copy{padding:54px;display:flex;flex-direction:column;justify-content:center}.journal-feature-copy h2{font-family:'Marcellus',serif;font-size:clamp(42px,4.8vw,64px);line-height:1.02;color:var(--green);font-weight:400;margin:9px 0 15px}.journal-feature-copy p{color:var(--muted);line-height:1.7}.journal-meta{display:flex;gap:10px;flex-wrap:wrap;font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.journal-read{display:inline-flex;align-items:center;gap:8px;margin-top:22px;font-size:10px;text-transform:uppercase;letter-spacing:.07em;font-weight:800;color:var(--green);border-bottom:1px solid var(--green);padding-bottom:3px;width:max-content}
+.journal-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.journal-card{background:#fff;border:1px solid var(--line);overflow:hidden;transition:transform .28s ease,box-shadow .28s ease}.journal-card:hover{transform:translateY(-5px);box-shadow:0 22px 45px rgba(13,45,35,.09)}.journal-card-media{aspect-ratio:16/10;overflow:hidden}.journal-card-media img{height:100%;object-fit:cover;transition:transform .6s var(--ease-soft)}.journal-card:hover img{transform:scale(1.03)}.journal-card-body{padding:25px}.journal-card h3{font-family:'Marcellus',serif;font-size:34px;line-height:1.05;font-weight:400;color:var(--green);margin:10px 0 12px}.journal-card p{color:var(--muted);line-height:1.65;font-size:13px}.journal-close{padding:72px 0;background:var(--green);color:#fff}.journal-close-inner{display:flex;align-items:end;justify-content:space-between;gap:30px}.journal-close h2{font-size:clamp(42px,5.2vw,70px);margin:6px 0 0;max-width:800px}
+/* Legal */
+.legal-hero{padding:145px 0 72px;background:var(--green);color:#fff}.legal-hero h1{font-size:clamp(52px,6.5vw,86px);margin:9px 0 14px}.legal-hero p{max-width:720px;color:rgba(255,255,255,.82);line-height:1.7}.legal-meta{margin-top:18px;font-size:10px;color:rgba(255,255,255,.6);line-height:1.5}
+.legal-body{padding:72px 0 100px;background:var(--ivory)}.legal-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:70px;align-items:start}.legal-content{max-width:820px}.legal-block{padding:0 0 28px;margin-bottom:28px;border-bottom:1px solid var(--line)}.legal-block:last-child{border-bottom:0}.legal-block h2{font-family:'Marcellus',serif;font-size:32px;font-weight:400;color:var(--green);margin:0 0 12px}.legal-block p,.legal-block li{color:var(--muted);line-height:1.75;font-size:14px}.legal-block ul{padding-left:18px}.legal-aside{position:sticky;top:110px;border-top:1px solid var(--line);padding-top:18px}.legal-aside strong{display:block;font-family:'Marcellus',serif;font-size:22px;color:var(--green);margin-bottom:12px}.legal-aside a{display:block;padding:9px 0;border-bottom:1px solid var(--line);font-size:12px;color:var(--green)}
+/* Dynamic social/contact/footer */
+.social-links-configured{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.social-links-configured a{display:grid!important;place-items:center;width:38px;height:38px;min-height:38px!important;border-radius:50%;border:1px solid rgba(255,255,255,.2);color:#fff!important;transition:background .2s ease,transform .2s ease}.social-links-configured a:hover{background:#fff;color:var(--green)!important;transform:translateY(-2px)}.social-links-configured svg{width:17px;height:17px;fill:currentColor}.contact-socials{margin-top:22px}.contact-socials .social-links-configured a{border-color:rgba(255,255,255,.28)}
+.footer-policy-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)}.footer-policy-links a{display:inline-flex!important;min-height:auto!important;padding:0!important;font-size:10px!important;color:rgba(255,255,255,.58)!important}.footer-policy-links a:hover{color:#fff!important}
+.whatsapp-fab{position:fixed;z-index:56;right:16px;bottom:82px;width:52px;height:52px;min-height:52px;border-radius:50%;border:0;background:#25D366;color:#fff;display:none;place-items:center;box-shadow:0 14px 34px rgba(0,0,0,.2);transition:transform .22s ease,box-shadow .22s ease}.whatsapp-fab.show{display:grid}.whatsapp-fab:hover{transform:translateY(-3px);box-shadow:0 18px 38px rgba(0,0,0,.24)}.whatsapp-fab svg{width:24px;height:24px;fill:currentColor}
+.config-contact-details{display:grid;gap:6px;margin-top:18px}.config-contact-details a{color:#fff!important;text-decoration:underline;text-underline-offset:3px}
+/* Contact actions */
+.contact-send-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.contact-send-actions .btn{display:none}.contact-send-actions .btn.show{display:inline-flex}.contact-form .integration-note{display:none}
+/* Responsive */
+@media(max-width:1100px){.nav-links{display:none}.menu{display:block}}
+@media(max-width:980px){.about-story{grid-template-columns:1fr}.about-story-media{min-height:600px}.journal-feature-card{grid-template-columns:1fr}.journal-feature-media{min-height:420px}.journal-close-inner{display:block}.journal-close .btn{margin-top:20px}.legal-layout{grid-template-columns:1fr}.legal-aside{position:relative;top:auto}.journal-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.about-story-media{min-height:480px}.journal-hero{padding:112px 0 56px}.journal-hero h1{font-size:50px}.journal-list-section{padding:58px 0 72px}.journal-feature-media{min-height:300px}.journal-feature-copy{padding:28px 20px}.journal-grid{grid-template-columns:1fr}.journal-card h3{font-size:30px}.journal-close{padding:56px 0}.legal-hero{padding:112px 0 50px}.legal-hero h1{font-size:48px}.legal-body{padding:52px 0 72px}.legal-block h2{font-size:28px}.whatsapp-fab{right:max(14px,env(safe-area-inset-right));bottom:calc(78px + env(safe-area-inset-bottom))}.chat-fab{right:max(14px,env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom))}}
+
+</style>
+</head>
+<body><a class="skip-link" href="#mainContent">Skip to content</a><div class="route-curtain" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand route" data-route="home" style="background:none;border:0;color:white;text-align:left;padding:0" href="?page=home">
+      <img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar">
+    </a>
+    <nav class="nav-links">
+      <a class="route active" data-route="home" href="?page=home">Home</a>
+      <a class="route" data-route="stays" href="?page=stays">Stays</a>
+      <a class="route" data-route="services" href="?page=services">Services</a>
+      <a class="route" data-route="about" href="?page=about">About</a>
+      <a class="route" data-route="journal" href="?page=journal">Journal</a>
+      <a class="route" data-route="contact" href="?page=contact">Contact</a>
+    </nav>
+    <div>
+      <button class="btn btn-light" data-open="stayModal">Book</button>
+      <button class="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <button class="close-menu" type="button" aria-label="Close menu">×</button>
+  <a class="route" data-route="home" href="?page=home">Home</a>
+  <a class="route" data-route="stays" href="?page=stays">Stays</a>
+  <a class="route" data-route="services" href="?page=services">Services</a>
+  <a class="route" data-route="about" href="?page=about">About</a>
+  <a class="route" data-route="journal" href="?page=journal">Journal</a>
+  <a class="route" data-route="contact" href="?page=contact">Contact</a>
+</div>
+
+<main class="app" id="mainContent">
+  <!-- HOME -->
+  <section class="page active" data-page="home">
+    <div class="home-hero">
+      <img class="home-hero-image" src="assets/elite-pool-sunset.webp" alt="ELITE furnished short stays and services in Zanzibar" loading="eager" fetchpriority="high">
+      <div class="home-hero-shade"></div>
+      <div class="container home-hero-inner">
+        <div class="home-hero-copy">
+          <div class="eyebrow">Short stays & services in Zanzibar</div>
+          <h1 class="display">Stay easy.<br>Live lighter.</h1>
+          <p>Furnished stays and practical support across Zanzibar.</p>
+          <div class="hero-actions">
+            <button class="btn btn-light" data-open="stayModal">Book a Stay</button>
+            <a class="btn btn-outline route" data-route="services" href="?page=services">Explore Services</a>
+          </div>
+        </div>
+        <div class="home-hero-note">
+          <span>ELITE</span>
+          <strong>Zanzibar</strong>
+        </div>
+      </div>
+      <div class="home-scroll-cue">Explore ↓</div>
+    </div>
+
+    <section class="home-discover">
+      <div class="container">
+        <div class="home-discover-head reveal">
+          <div>
+            <div class="eyebrow">ELITE, your way</div>
+            <h2 class="display">What do you need today?</h2>
+          </div>
+          <p>Choose one. We’ll show you only what matters.</p>
+        </div>
+
+        <div class="experience-shell reveal reveal-delay-1">
+          <div class="experience-tabs" role="tablist" aria-label="ELITE experiences">
+            <button class="experience-tab active" data-exp="stay" role="tab" aria-selected="true">
+              <span>01</span><strong>Stay</strong>
+            </button>
+            <button class="experience-tab" data-exp="clean" role="tab" aria-selected="false">
+              <span>02</span><strong>Cleaning</strong>
+            </button>
+            <button class="experience-tab" data-exp="maintain" role="tab" aria-selected="false">
+              <span>03</span><strong>Maintenance</strong>
+            </button>
+            <button class="experience-tab" data-exp="move" role="tab" aria-selected="false">
+              <span>04</span><strong>Transport</strong>
+            </button>
+          </div>
+
+          <div class="experience-stage">
+            <div class="experience-image-wrap">
+              <img id="experienceImage"
+                   src="assets/elite-dining-kitchen.webp"
+                   alt="Furnished short-stay accommodation in Zanzibar" loading="lazy">
+              <div class="experience-gradient"></div>
+              <div class="experience-index" id="experienceIndex">01</div>
+            </div>
+
+            <div class="experience-copy" id="experienceCopy">
+              <div class="eyebrow" id="experienceKicker">Furnished short stays</div>
+              <h3 class="display" id="experienceTitle">Find your space.</h3>
+              <p id="experienceText">1–4 bedroom stays for solo trips, couples, families and groups.</p>
+              <a id="experienceLink" class="experience-link route" data-route="stays" href="?page=stays">Explore stays <span>↗</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-close">
+      <img src="assets/elite-arrival.webp" alt="ELITE furnished accommodation in Zanzibar" loading="lazy">
+      <div class="home-close-shade"></div>
+      <div class="container home-close-inner reveal">
+        <div class="eyebrow">One team. One next step.</div>
+        <h2 class="display">Tell us what you need.</h2>
+        <p>Tell us what you need. We’ll guide the next step.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light route" data-route="contact" href="?page=contact">Contact ELITE</a>
+          <button class="btn btn-outline" data-open="chatModal">Ask the Concierge</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div>
+          <p>Short stays and practical services across Zanzibar.</p>
+          
+        </div>
+        <div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="services" href="?page=services">Services</a></div>
+        <div><h4>Help</h4><button data-open="chatModal">Concierge</button><a class="route" data-route="contact" href="?page=contact">Contact</a></div>
+        <div><h4>Book</h4><button data-open="stayModal">Book a Stay</button><button data-open="serviceModal">Request a Service</button></div>
+      </div>
+      <div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div>
+    </footer>
+  </section>
+
+  <!-- STAYS -->
+  <section class="page" data-page="stays">
+    <div class="stays-hero">
+      <img src="assets/elite-exterior.webp" alt="ELITE furnished short-stay villa in Zanzibar" loading="eager" fetchpriority="high">
+      <div class="stays-hero-shade"></div>
+      <div class="container stays-hero-inner">
+        <div class="eyebrow">ELITE Stays · Zanzibar</div>
+        <div class="stay-image-note">Representative stay imagery · exact accommodation is confirmed with each enquiry</div>
+        <h1 class="display">Find your stay.</h1>
+        <p>1–4 bedroom furnished stays for solo trips, couples, families and groups.</p>
+
+        <div class="stays-booking-bar">
+          <label for="staysCheckin">
+            <span>Check-in</span>
+            <input id="staysCheckin" name="checkin" type="date">
+          </label>
+          <label for="staysCheckout">
+            <span>Check-out</span>
+            <input id="staysCheckout" name="checkout" type="date">
+          </label>
+          <label for="staysGuests">
+            <span>Guests</span>
+            <select id="staysGuests" name="guests">
+              <option>1 Guest</option>
+              <option>2 Guests</option>
+              <option>3–4 Guests</option>
+              <option>5–6 Guests</option>
+              <option>7+ Guests</option>
+            </select>
+          </label>
+          <label for="staySizeSelect">
+            <span>Bedrooms</span>
+            <select id="staySizeSelect" name="bedrooms">
+              <option value="one">1 Bedroom</option>
+              <option value="two">2 Bedrooms</option>
+              <option value="three">3 Bedrooms</option>
+              <option value="four">4 Bedrooms</option>
+            </select>
+          </label>
+          <button class="btn btn-light" data-open="stayModal">Check Stay</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="stay-explorer-section">
+      <div class="container">
+        <div class="stay-explorer-head reveal">
+          <div>
+            <div class="eyebrow">Choose by space</div>
+            <h2 class="display">Which stay fits you?</h2>
+          </div>
+          <p>Tap a size. We’ll reveal the stay.</p>
+        </div>
+
+        <div class="stay-selector reveal reveal-delay-1">
+          <div class="stay-selector-tabs" role="tablist" aria-label="Stay sizes">
+            <button class="stay-size-tab active" data-stay="one" role="tab" aria-selected="true">
+              <span>01</span><strong>1 Bedroom</strong><small>Solo · Couple</small>
+            </button>
+            <button class="stay-size-tab" data-stay="two" role="tab" aria-selected="false">
+              <span>02</span><strong>2 Bedrooms</strong><small>Couple · Small family</small>
+            </button>
+            <button class="stay-size-tab" data-stay="three" role="tab" aria-selected="false">
+              <span>03</span><strong>3 Bedrooms</strong><small>Family · Group</small>
+            </button>
+            <button class="stay-size-tab" data-stay="four" role="tab" aria-selected="false">
+              <span>04</span><strong>4 Bedrooms</strong><small>Large family · Group</small>
+            </button>
+          </div>
+
+          <div class="stay-selector-stage">
+            <div class="stay-selector-media">
+              <div class="stay-main-image">
+                <img id="stayMainImage" src="assets/elite-1br-living-kitchen.webp" alt="ELITE one-bedroom furnished apartment living room and kitchenette in Zanzibar" loading="lazy">
+              </div>
+              <div class="stay-secondary-image">
+                <img id="staySecondaryImage" src="assets/elite-1br-bedroom.webp" alt="ELITE one-bedroom furnished bedroom in Zanzibar" loading="lazy">
+              </div>
+              <div class="stay-number" id="stayNumber">01</div>
+            </div>
+
+            <div class="stay-selector-copy" id="staySelectorCopy">
+              <div class="eyebrow" id="stayKicker">1 Bedroom Stay</div>
+              <h3 class="display" id="stayTitle">Simple. Stylish. Yours.</h3>
+              <p id="stayDescription">A furnished stay for solo travellers or couples.</p>
+
+              <div class="stay-mini-facts" id="stayFacts">
+                <span>1 Bedroom</span>
+                <span>Furnished</span>
+                <span>Short Stay</span>
+              </div>
+
+              <div class="stay-selector-actions">
+                <button class="btn btn-dark" data-open="stayModal">Book this stay</button>
+                <button class="stay-gallery-link" id="stayGalleryLink">View second image ↗</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stay-mood">
+      <img id="stayMoodImage" src="assets/elite-pool-sunset.webp" alt="ELITE poolside stay experience in Zanzibar" loading="lazy">
+      <div class="stay-mood-shade"></div>
+      <div class="container stay-mood-inner reveal">
+        <div class="eyebrow">Your Zanzibar stay</div>
+        <h2 class="display">Arrive. Settle in.</h2>
+        <p>We’ll help you find the space that fits.</p>
+        <button class="btn btn-light" data-open="stayModal">Start Booking</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div>
+          <p>Furnished short stays in Zanzibar.</p>
+        </div>
+        <div>
+          <h4>Stays</h4>
+          <button class="stay-footer-jump" data-stay-jump="one">1 Bedroom</button>
+          <button class="stay-footer-jump" data-stay-jump="two">2 Bedrooms</button>
+          <button class="stay-footer-jump" data-stay-jump="three">3 Bedrooms</button>
+          <button class="stay-footer-jump" data-stay-jump="four">4 Bedrooms</button>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a class="route" data-route="services" href="?page=services">Services</a>
+          <a class="route" data-route="contact" href="?page=contact">Contact</a>
+        </div>
+        <div>
+          <h4>Book</h4>
+          <button data-open="stayModal">Booking Enquiry</button>
+          <button data-open="chatModal">Ask Concierge</button>
+        </div>
+      </div>
+      <div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div>
+    </footer>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="page" data-page="services">
+    <div class="page-hero service-hero">
+      <img src="assets/elite-arrival.webp" alt="ELITE guest and service support in Zanzibar" fetchpriority="high">
+      <div class="container inner">
+        <div class="eyebrow">ELITE Services · Zanzibar</div>
+        <h1 class="display">Support that keeps things moving.</h1>
+        <p>Cleaning and fumigation, maintenance, transport and logistics.</p>
+        <div class="hero-actions"><button class="btn btn-light" type="button" data-open="serviceModal" data-service="Cleaning">Request a Service</button></div>
+      </div>
+    </div>
+
+    <section class="services-refined section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="display">Choose what you need.</h2>
+          <p>Short forms. Clear next steps. No service catalogue maze.</p>
+        </div>
+        <div class="service-rail reveal reveal-delay-1">
+          <article class="service-feature">
+            <div class="service-feature-media"><img src="assets/elite-cleaning.webp" alt="Professional cleaning and fumigation services in Zanzibar" loading="lazy"></div>
+            <div class="service-feature-copy">
+              <div class="eyebrow">Cleaning & fumigation</div>
+              <h3>Ready for the next guest.</h3>
+              <div class="service-tags"><span>One-off</span><span>Scheduled</span><span>Homes & business spaces</span></div>
+              <button class="btn btn-dark" type="button" data-open="serviceModal" data-service="Cleaning / Fumigation">Request cleaning</button>
+            </div>
+          </article>
+          <article class="service-feature reverse">
+            <div class="service-feature-media"><img src="assets/elite-maintenance.webp" alt="Maintenance technician servicing a Zanzibar interior" loading="lazy"></div>
+            <div class="service-feature-copy">
+              <div class="eyebrow">Maintenance</div>
+              <h3>Fix it. Keep it running.</h3>
+              <div class="service-tags"><span>AC</span><span>Electrical</span><span>Plumbing</span><span>General</span></div>
+              <button class="btn btn-dark" type="button" data-open="serviceModal" data-service="Maintenance">Plan maintenance</button>
+            </div>
+          </article>
+          <article class="service-feature">
+            <div class="service-feature-media"><img src="assets/elite-transport.webp" alt="Transport and logistics service in Zanzibar" loading="lazy"></div>
+            <div class="service-feature-copy">
+              <div class="eyebrow">Transport & logistics</div>
+              <h3>Get there. Get it there.</h3>
+              <div class="service-tags"><span>Passengers</span><span>Airport</span><span>Supplies</span><span>Equipment</span></div>
+              <button class="btn btn-dark" type="button" data-open="transportModal">Arrange transport</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-close reveal">
+      <div class="container service-close-inner">
+        <div><div class="eyebrow">Not sure which request fits?</div><h2 class="display">Start with the outcome.</h2></div>
+        <button class="btn btn-light" type="button" data-open="chatModal">Ask the Concierge</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-grid">
+        <div><div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div><p>Stays and practical services across Zanzibar.</p></div>
+        <div><h4>Services</h4><button type="button" data-open="serviceModal" data-service="Cleaning / Fumigation">Cleaning</button><button type="button" data-open="serviceModal" data-service="Maintenance">Maintenance</button><button type="button" data-open="transportModal">Transport</button></div>
+        <div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="about" href="?page=about">About</a></div>
+        <div><h4>Help</h4><a class="route" data-route="contact" href="?page=contact">Contact</a><button type="button" data-open="chatModal">Concierge</button></div>
+      </div>
+      <div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div>
+    </footer>
+  </section>
+
+
+  <!-- JOURNAL -->
+  <section class="page" data-page="journal">
+    <div class="journal-hero">
+      <div class="container journal-hero-inner">
+        <div class="eyebrow">ELITE Journal</div>
+        <h1 class="display">Zanzibar, better understood.</h1>
+        <p>Practical travel notes, stay planning and local context for a smoother Zanzibar experience.</p>
+      </div>
+    </div>
+
+    <section class="journal-list-section">
+      <div class="container">
+        <div class="journal-feature" id="journalFeature"></div>
+        <div class="journal-grid" id="journalGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="journal-close reveal">
+      <div class="container journal-close-inner">
+        <div><div class="eyebrow">Need more than a guide?</div><h2 class="display">Plan the stay. We’ll help with the rest.</h2></div>
+        <a class="btn btn-light route" data-route="contact" href="?page=contact">Contact ELITE</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-grid">
+        <div><div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div><p>Short stays, practical services and Zanzibar travel insight.</p></div>
+        <div><h4>Journal</h4><a class="journal-filter-link" href="#journalGrid">Travel guides</a><a class="journal-filter-link" href="#journalGrid">Accommodation</a></div>
+        <div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="services" href="?page=services">Services</a></div>
+        <div><h4>Help</h4><a class="route" data-route="contact" href="?page=contact">Contact</a><button type="button" data-open="chatModal">Concierge</button></div>
+      </div>
+      <div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div>
+    </footer>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="page" data-page="about">
+    <div class="page-hero about-hero">
+      <img src="assets/elite-pool-sunset.webp" alt="ELITE Zanzibar hospitality setting at sunset" fetchpriority="high">
+      <div class="container inner">
+        <div class="eyebrow">About ELITE</div>
+        <h1 class="display">One team around the way you stay.</h1>
+        <p>Accommodation, cleaning, maintenance and movement, kept simple.</p>
+      </div>
+    </div>
+
+    <section class="about-refined section">
+      <div class="container about-story reveal">
+        <div class="about-story-media"><img src="assets/elite-arrival.webp" alt="Zanzibar-inspired guest arrival scene" loading="lazy"></div>
+        <div class="about-story-copy">
+          <div class="eyebrow">What ELITE does</div>
+          <h2 class="display">Stay. Care. Maintain. Move.</h2>
+          <p>ELITE brings furnished short stays and practical support into one clear guest and client experience.</p>
+          <div class="about-pillars">
+            <button type="button" class="about-pillar active" data-about="stay"><span>01</span><strong>Stay</strong><small>1–4 bedroom furnished stays</small></button>
+            <button type="button" class="about-pillar" data-about="care"><span>02</span><strong>Care</strong><small>Cleaning & fumigation</small></button>
+            <button type="button" class="about-pillar" data-about="maintain"><span>03</span><strong>Maintain</strong><small>Repairs & scheduled visits</small></button>
+            <button type="button" class="about-pillar" data-about="move"><span>04</span><strong>Move</strong><small>Transport & logistics</small></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-close reveal">
+      <div class="container"><div class="eyebrow">The idea is simple</div><h2 class="display">Less chasing. More getting things done.</h2><a class="btn btn-light route" data-route="contact" href="?page=contact">Contact ELITE</a></div>
+    </section>
+
+    <footer>
+      <div class="container footer-grid">
+        <div><div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div><p>Stays and services across Zanzibar.</p></div>
+        <div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="services" href="?page=services">Services</a></div>
+        <div><h4>Help</h4><a class="route" data-route="contact" href="?page=contact">Contact</a><button type="button" data-open="chatModal">Concierge</button></div>
+        <div><h4>Book</h4><button type="button" data-open="stayModal">Book a Stay</button><button type="button" data-open="serviceModal">Request a Service</button></div>
+      </div>
+      <div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div>
+    </footer>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="page" data-page="contact">
+    <div class="page-hero contact-hero">
+      <img src="assets/elite-arrival.webp" alt="ELITE Zanzibar guest and client support" fetchpriority="high">
+      <div class="container inner">
+        <div class="eyebrow">Contact ELITE</div>
+        <h1 class="display">Tell us what you need.</h1>
+        <p>Prepare a clear enquiry for a stay, service or transport request.</p>
+      </div>
+    </div>
+
+    <section class="contact-refined section">
+      <div class="container contact-grid reveal">
+        <aside class="contact-panel">
+          <div class="eyebrow">Choose a path</div>
+          <h2>Start in one tap.</h2>
+          <p>Pick the request type and we’ll prefill the form.</p>
+          <div class="contact-shortcuts">
+            <button class="contact-shortcut" type="button" data-contact-need="Accommodation"><span>Stay</span><strong>Book accommodation</strong></button>
+            <button class="contact-shortcut" type="button" data-contact-need="Cleaning / Fumigation"><span>Care</span><strong>Cleaning / fumigation</strong></button>
+            <button class="contact-shortcut" type="button" data-contact-need="Maintenance"><span>Maintain</span><strong>Maintenance request</strong></button>
+            <button class="contact-shortcut" type="button" data-contact-need="Transport / Logistics"><span>Move</span><strong>Transport / logistics</strong></button>
+          </div>
+        </aside>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-grid">
+            <div class="field"><label for="contactName">Name</label><input id="contactName" name="name" autocomplete="name" required><span class="field-error" data-error-for="name"></span></div>
+            <div class="field"><label for="contactPhone">Phone / WhatsApp</label><input id="contactPhone" name="phone" autocomplete="tel" inputmode="tel" required><span class="field-error" data-error-for="phone"></span></div>
+            <div class="field"><label for="contactNeed">I need</label><select id="contactNeed" name="need"><option>Accommodation</option><option>Cleaning / Fumigation</option><option>Maintenance</option><option>Transport / Logistics</option></select></div>
+            <div class="field"><label for="contactDate">Preferred date</label><input id="contactDate" name="date" type="date"></div>
+            <div class="field full"><label for="contactMessage">Details</label><textarea id="contactMessage" name="message" placeholder="Dates, guests, location, service scope or transport details..."></textarea></div>
+          </div>
+          <div class="contact-actions"><button class="btn btn-dark" type="submit">Prepare Enquiry</button><button class="btn btn-outline copy-enquiry" type="button" id="copyEnquiry" hidden>Copy Enquiry</button></div><div class="contact-send-actions"><a class="btn btn-dark" id="sendWhatsApp" target="_blank" rel="noopener">Send via WhatsApp</a><a class="btn btn-outline" id="sendEmail">Send by Email</a></div>
+          <div class="form-status" id="contactStatus" role="status" aria-live="polite"></div>
+          
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-grid">
+        <div><div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div><p>Stays and practical services across Zanzibar.</p></div>
+        <div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="services" href="?page=services">Services</a></div>
+        <div><h4>Help</h4><button type="button" data-open="chatModal">Concierge</button></div>
+        <div><h4>Contact</h4><a href="#contactForm" class="contact-focus">Prepare an enquiry</a></div>
+      </div>
+      <div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div>
+    </footer>
+  </section>
+</main>
+
+
+  <section class="page legal-page" data-page="privacy">
+    <div class="legal-hero"><div class="container"><div class="eyebrow">Legal</div><h1 class="display">Privacy Policy</h1><p>How ELITE handles personal information submitted through this website.</p><div class="legal-meta">Effective 5 November 2026</div></div></div>
+    <div class="legal-body"><div class="container legal-layout"><article class="legal-content"><section class="legal-block"><h2>1. Scope</h2><p>This Privacy Policy explains how personal information may be handled when you use the ELITE website, prepare an enquiry, follow a configured contact link, or communicate with ELITE about accommodation or services.</p></section><section class="legal-block"><h2>2. Information you may provide</h2><ul><li>Name and contact details such as a telephone or WhatsApp number.</li><li>Travel or stay details, including preferred dates, guest count and bedroom requirements.</li><li>Service information, including location, requested work and transport details.</li><li>Any other information you choose to include in an enquiry.</li></ul></section><section class="legal-block"><h2>3. How the current website handles form data</h2><p>The website currently prepares enquiry information in your browser. It does not transmit the form to an ELITE server by itself. If WhatsApp or email is configured and you choose that option, the information is handed to that external service for you to send. If you use the copy function, the text remains under your control until you paste or send it elsewhere.</p></section><section class="legal-block"><h2>4. Why information may be used</h2><p>Information sent to ELITE may be used to respond to enquiries, assess availability or service scope, arrange requested services, maintain customer correspondence, prevent misuse and meet legal or operational obligations.</p></section><section class="legal-block"><h2>5. Sharing and service providers</h2><p>ELITE may share personal information where reasonably necessary for the requested service, where required by law, or with service providers used to operate communications and business systems. Third-party services such as WhatsApp or email providers operate under their own privacy terms.</p></section><section class="legal-block"><h2>6. Retention and security</h2><p>Personal information should be retained only for as long as reasonably necessary for the purpose for which it was collected, applicable legal requirements, record keeping and dispute management. ELITE will apply reasonable access controls and practical security measures to customer information it stores.</p></section><section class="legal-block"><h2>7. Your choices and rights</h2><p>Depending on the law that applies to a particular processing activity, individuals may have rights concerning access, correction, deletion, objection, restriction or complaints about the handling of their personal information. Requests can be made through the Contact page once ELITE’s official contact details are configured.</p></section><section class="legal-block"><h2>8. Tanzanian and Zanzibar legal context</h2><p>Tanzania’s Personal Data Protection Act, 2022 and the Personal Data Protection (Personal Data Collection and Processing) Regulations, 2023 establish personal-data principles and rights. The Act and Regulations expressly state that their Zanzibar application is limited in relation to non-Union matters. The exact legal requirements that apply can depend on the nature of the processing and the Zanzibar or Union-law context.</p></section><section class="legal-block"><h2>9. Changes</h2><p>This policy may be updated when ELITE adds new systems, analytics, payment tools, booking technology or other processing activities. The effective date should be updated whenever a material change is published.</p></section></article><aside class="legal-aside"><strong>ELITE website policies</strong><a class="route" data-route="privacy" href="?page=privacy">Privacy Policy</a><a class="route" data-route="terms" href="?page=terms">Terms & Conditions</a><a class="route" data-route="cookies" href="?page=cookies">Cookie Policy</a><a class="route" data-route="disclaimer" href="?page=disclaimer">Website Disclaimer</a><a class="route" data-route="contact" href="?page=contact">Contact ELITE</a></aside></div></div>
+    <footer><div class="container footer-grid"><div><div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div><p>Short stays and practical services across Zanzibar.</p></div><div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="services" href="?page=services">Services</a></div><div><h4>Journal</h4><a class="route" data-route="journal" href="?page=journal">Insights</a></div><div><h4>Contact</h4><a class="route" data-route="contact" href="?page=contact">Enquiries</a></div></div><div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div></footer>
+  </section>
+
+  <section class="page legal-page" data-page="terms">
+    <div class="legal-hero"><div class="container"><div class="eyebrow">Legal</div><h1 class="display">Terms & Conditions</h1><p>The terms for using the ELITE website and making an enquiry.</p><div class="legal-meta">Effective 5 November 2026</div></div></div>
+    <div class="legal-body"><div class="container legal-layout"><article class="legal-content"><section class="legal-block"><h2>1. Website purpose</h2><p>This website provides general information about ELITE’s furnished short stays and practical services in Zanzibar. It also provides tools for preparing enquiries. Website content does not by itself create a confirmed booking, service contract or payment obligation.</p></section><section class="legal-block"><h2>2. Enquiries and confirmations</h2><p>Availability, rates, exact accommodation, service scope, timing, transport arrangements and any payment terms become binding only when they are specifically confirmed by ELITE through an authorized communication channel.</p></section><section class="legal-block"><h2>3. Accommodation information</h2><p>Bedroom configurations and representative imagery help visitors understand the type of stay they are looking for. The exact property, verified photographs, amenities, capacity, rate and booking conditions should be confirmed before a reservation is accepted.</p></section><section class="legal-block"><h2>4. Services</h2><p>Cleaning, fumigation, maintenance, transport and logistics requests are subject to ELITE confirming the location, scope, access, timing, resources and any applicable price or service conditions.</p></section><section class="legal-block"><h2>5. Visitor responsibilities</h2><p>Users should provide accurate enquiry information, use the website lawfully and avoid attempting to interfere with the website, its code, security or other users.</p></section><section class="legal-block"><h2>6. Third-party services</h2><p>The website may link to third-party services such as WhatsApp, social networks or email providers. ELITE does not control those platforms and their separate terms and privacy practices apply.</p></section><section class="legal-block"><h2>7. Intellectual property</h2><p>The ELITE name, logo, website design, original copy and owned creative materials may not be reproduced or commercially reused without permission, except where law permits.</p></section><section class="legal-block"><h2>8. Liability</h2><p>ELITE aims to keep website information clear and current, but travel requirements, third-party information and service availability may change. To the extent permitted by applicable law, ELITE is not responsible for losses caused solely by reliance on outdated third-party information or by third-party platforms outside ELITE’s control.</p></section><section class="legal-block"><h2>9. Applicable law and review</h2><p>These terms should be interpreted in accordance with the laws applicable to ELITE’s operations in Zanzibar and Tanzania. These terms operate alongside any specific booking, payment or service terms that ELITE confirms directly with a customer.</p></section></article><aside class="legal-aside"><strong>ELITE website policies</strong><a class="route" data-route="privacy" href="?page=privacy">Privacy Policy</a><a class="route" data-route="terms" href="?page=terms">Terms & Conditions</a><a class="route" data-route="cookies" href="?page=cookies">Cookie Policy</a><a class="route" data-route="disclaimer" href="?page=disclaimer">Website Disclaimer</a><a class="route" data-route="contact" href="?page=contact">Contact ELITE</a></aside></div></div>
+    <footer><div class="container footer-grid"><div><div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div><p>Short stays and practical services across Zanzibar.</p></div><div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="services" href="?page=services">Services</a></div><div><h4>Journal</h4><a class="route" data-route="journal" href="?page=journal">Insights</a></div><div><h4>Contact</h4><a class="route" data-route="contact" href="?page=contact">Enquiries</a></div></div><div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div></footer>
+  </section>
+
+  <section class="page legal-page" data-page="cookies">
+    <div class="legal-hero"><div class="container"><div class="eyebrow">Legal</div><h1 class="display">Cookie Policy</h1><p>What this website currently stores or tracks in your browser.</p><div class="legal-meta">Effective 5 November 2026</div></div></div>
+    <div class="legal-body"><div class="container legal-layout"><article class="legal-content"><section class="legal-block"><h2>1. Current cookie use</h2><p>The current ELITE website does not intentionally set advertising, analytics or other non-essential tracking cookies. No analytics platform, advertising pixel or behavioral profiling tool is included in this handover build.</p></section><section class="legal-block"><h2>2. Essential browser behavior</h2><p>Your browser may still perform normal technical functions such as caching files, remembering browser-level preferences or applying settings that are outside ELITE’s direct control.</p></section><section class="legal-block"><h2>3. Third-party links</h2><p>If you follow a link to WhatsApp, Instagram, Facebook, TikTok, YouTube, LinkedIn or another external platform, that service may use its own cookies or tracking technologies. Its own privacy and cookie notices apply after you leave the ELITE website.</p></section><section class="legal-block"><h2>4. Future analytics or marketing tools</h2><p>If ELITE later adds analytics, advertising pixels, embedded social content, personalization tools or other technologies that store non-essential identifiers, this Cookie Policy should be updated and an appropriate consent mechanism should be implemented where required.</p></section><section class="legal-block"><h2>5. Managing cookies</h2><p>Browser settings can usually block, delete or restrict cookies. Because this website currently does not rely on non-essential cookies, disabling them should not affect the main ELITE website experience.</p></section></article><aside class="legal-aside"><strong>ELITE website policies</strong><a class="route" data-route="privacy" href="?page=privacy">Privacy Policy</a><a class="route" data-route="terms" href="?page=terms">Terms & Conditions</a><a class="route" data-route="cookies" href="?page=cookies">Cookie Policy</a><a class="route" data-route="disclaimer" href="?page=disclaimer">Website Disclaimer</a><a class="route" data-route="contact" href="?page=contact">Contact ELITE</a></aside></div></div>
+    <footer><div class="container footer-grid"><div><div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div><p>Short stays and practical services across Zanzibar.</p></div><div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="services" href="?page=services">Services</a></div><div><h4>Journal</h4><a class="route" data-route="journal" href="?page=journal">Insights</a></div><div><h4>Contact</h4><a class="route" data-route="contact" href="?page=contact">Enquiries</a></div></div><div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div></footer>
+  </section>
+
+  <section class="page legal-page" data-page="disclaimer">
+    <div class="legal-hero"><div class="container"><div class="eyebrow">Legal</div><h1 class="display">Website Disclaimer</h1><p>Important context for website, travel and service information.</p><div class="legal-meta">Effective 5 November 2026</div></div></div>
+    <div class="legal-body"><div class="container legal-layout"><article class="legal-content"><section class="legal-block"><h2>1. General information</h2><p>Website content is provided for general information and enquiry planning. It is not a substitute for a confirmed quotation, booking confirmation, service agreement, immigration advice, legal advice, medical advice or professional travel advice.</p></section><section class="legal-block"><h2>2. Travel information</h2><p>Travel requirements, insurance rules, entry procedures, weather and local conditions can change. Journal articles identify their publication date and link to official or authoritative sources where practical. Travellers should verify current requirements directly before travel.</p></section><section class="legal-block"><h2>3. Accommodation imagery</h2><p>Some stay imagery is representative visual material used to communicate accommodation style and configuration. Visitors should request and review verified details for the exact accommodation before making a booking decision.</p></section><section class="legal-block"><h2>4. Service imagery</h2><p>Photography used to communicate cleaning, maintenance, transport or hospitality themes is editorial and does not necessarily depict a specific ELITE employee, vehicle, property or completed customer job.</p></section><section class="legal-block"><h2>5. External links</h2><p>Links to third-party websites are provided for convenience or source verification. ELITE does not control or guarantee third-party content, availability or privacy practices.</p></section><section class="legal-block"><h2>6. No automatic confirmation</h2><p>Using the website, preparing an enquiry or opening an external contact channel does not automatically confirm accommodation, services, transport, pricing or availability.</p></section></article><aside class="legal-aside"><strong>ELITE website policies</strong><a class="route" data-route="privacy" href="?page=privacy">Privacy Policy</a><a class="route" data-route="terms" href="?page=terms">Terms & Conditions</a><a class="route" data-route="cookies" href="?page=cookies">Cookie Policy</a><a class="route" data-route="disclaimer" href="?page=disclaimer">Website Disclaimer</a><a class="route" data-route="contact" href="?page=contact">Contact ELITE</a></aside></div></div>
+    <footer><div class="container footer-grid"><div><div class="brand"><img class="brand-logo" src="assets/elite-logo.png" alt="ELITE Zanzibar"></div><p>Short stays and practical services across Zanzibar.</p></div><div><h4>Explore</h4><a class="route" data-route="stays" href="?page=stays">Stays</a><a class="route" data-route="services" href="?page=services">Services</a></div><div><h4>Journal</h4><a class="route" data-route="journal" href="?page=journal">Insights</a></div><div><h4>Contact</h4><a class="route" data-route="contact" href="?page=contact">Enquiries</a></div></div><div class="container footer-bottom"><span data-copyright></span><span>Zanzibar</span></div></footer>
+  </section>
+
+<!-- MODALS -->
+<div class="layer" id="stayModal" role="dialog" aria-modal="true" aria-labelledby="stayModalTitle" aria-hidden="true">
+  <form class="modal request-modal" id="stayRequestForm" novalidate>
+    <button class="close" type="button" data-close aria-label="Close booking form">×</button>
+    <div class="eyebrow">Stay enquiry</div><h3 id="stayModalTitle">Plan your stay.</h3>
+    <div class="form-grid">
+      <div class="field"><label for="stayIn">Check-in</label><input id="stayIn" name="checkin" type="date" required></div>
+      <div class="field"><label for="stayOut">Check-out</label><input id="stayOut" name="checkout" type="date" required></div>
+      <div class="field"><label for="stayGuests">Guests</label><select id="stayGuests" name="guests"><option>1</option><option>2</option><option>3–4</option><option>5–6</option><option>7+</option></select></div>
+      <div class="field"><label for="stayBedrooms">Bedrooms</label><select id="stayBedrooms" name="bedrooms"><option>1 Bedroom</option><option>2 Bedrooms</option><option>3 Bedrooms</option><option>4 Bedrooms</option></select></div>
+      <div class="field full"><label for="stayPhone">Phone / WhatsApp</label><input id="stayPhone" name="phone" autocomplete="tel" inputmode="tel" required></div>
+    </div>
+    <div class="modal-actions"><button class="btn btn-dark" type="submit">Continue to Enquiry</button></div>
+  </form>
+</div>
+
+<div class="layer" id="serviceModal" role="dialog" aria-modal="true" aria-labelledby="serviceModalTitle" aria-hidden="true">
+  <form class="modal request-modal" id="serviceRequestForm" novalidate>
+    <button class="close" type="button" data-close aria-label="Close service form">×</button>
+    <div class="eyebrow">Service request</div><h3 id="serviceModalTitle">What needs doing?</h3>
+    <div class="form-grid">
+      <div class="field"><label for="serviceType">Service</label><select id="serviceType" name="service"><option>Cleaning / Fumigation</option><option>Maintenance</option></select></div>
+      <div class="field"><label for="serviceFrequency">Frequency</label><select id="serviceFrequency" name="frequency"><option>One-off</option><option>Monthly</option><option>Every 3 months</option><option>Every 6 months</option><option>Custom</option></select></div>
+      <div class="field"><label for="serviceLocation">Location</label><input id="serviceLocation" name="location" placeholder="Area in Zanzibar"></div>
+      <div class="field"><label for="servicePhone">Phone / WhatsApp</label><input id="servicePhone" name="phone" autocomplete="tel" inputmode="tel" required></div>
+      <div class="field full"><label for="serviceDetails">Details</label><textarea id="serviceDetails" name="details" placeholder="What needs attention?"></textarea></div>
+    </div>
+    <div class="modal-actions"><button class="btn btn-dark" type="submit">Continue to Enquiry</button></div>
+  </form>
+</div>
+
+<div class="layer" id="transportModal" role="dialog" aria-modal="true" aria-labelledby="transportModalTitle" aria-hidden="true">
+  <form class="modal request-modal" id="transportRequestForm" novalidate>
+    <button class="close" type="button" data-close aria-label="Close transport form">×</button>
+    <div class="eyebrow">Transport & logistics</div><h3 id="transportModalTitle">Plan the movement.</h3>
+    <div class="form-grid">
+      <div class="field"><label for="transportType">Type</label><select id="transportType" name="type"><option>Passenger transport</option><option>Airport transfer</option><option>Business delivery</option><option>Supplies / Equipment</option></select></div>
+      <div class="field"><label for="transportDate">Date</label><input id="transportDate" name="date" type="date"></div>
+      <div class="field"><label for="transportPickup">Pickup</label><input id="transportPickup" name="pickup"></div>
+      <div class="field"><label for="transportDestination">Destination</label><input id="transportDestination" name="destination"></div>
+      <div class="field full"><label for="transportDetails">Passengers / load details</label><textarea id="transportDetails" name="details"></textarea></div>
+    </div>
+    <div class="modal-actions"><button class="btn btn-dark" type="submit">Continue to Enquiry</button></div>
+  </form>
+</div>
+
+<div class="layer" id="chatModal" role="dialog" aria-modal="true" aria-labelledby="chatModalTitle" aria-hidden="true">
+  <div class="modal concierge-modal">
+    <button class="close" type="button" data-close aria-label="Close concierge">×</button>
+    <div class="eyebrow">ELITE Concierge</div><h3 id="chatModalTitle">What do you need?</h3>
+    <div class="concierge-options">
+      <button type="button" data-concierge="Accommodation"><span>Stay</span><strong>Find accommodation</strong></button>
+      <button type="button" data-concierge="Cleaning / Fumigation"><span>Care</span><strong>Cleaning / fumigation</strong></button>
+      <button type="button" data-concierge="Maintenance"><span>Maintain</span><strong>Maintenance</strong></button>
+      <button type="button" data-concierge="Transport / Logistics"><span>Move</span><strong>Transport / logistics</strong></button>
+    </div>
+  </div>
+</div>
+
+<a class="whatsapp-fab" id="whatsappFab" aria-label="Contact ELITE on WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19.11 17.2c-.26-.13-1.55-.76-1.79-.85-.24-.09-.42-.13-.59.13-.17.26-.68.85-.83 1.02-.15.17-.3.2-.56.07-.26-.13-1.1-.41-2.1-1.3-.78-.69-1.3-1.54-1.45-1.8-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.46.13-.15.17-.26.26-.43.09-.17.04-.33-.02-.46-.07-.13-.59-1.42-.81-1.95-.21-.51-.43-.44-.59-.45h-.5c-.17 0-.46.07-.7.33-.24.26-.92.9-.92 2.2 0 1.29.94 2.54 1.07 2.72.13.17 1.85 2.82 4.48 3.96.63.27 1.12.43 1.5.55.63.2 1.2.17 1.65.1.5-.07 1.55-.63 1.77-1.24.22-.61.22-1.13.15-1.24-.06-.11-.24-.17-.5-.3zM16.05 3.2c-7 0-12.7 5.64-12.7 12.6 0 2.22.59 4.39 1.7 6.29L3.25 28.8l6.88-1.8a12.8 12.8 0 0 0 5.91 1.5h.01c7 0 12.7-5.65 12.7-12.61 0-3.37-1.32-6.54-3.72-8.92A12.66 12.66 0 0 0 16.05 3.2zm0 23.17h-.01a10.6 10.6 0 0 1-5.41-1.48l-.39-.23-4.08 1.07 1.09-3.96-.26-.41a10.43 10.43 0 0 1-1.62-5.57c0-5.79 4.79-10.5 10.68-10.5 2.85 0 5.53 1.1 7.55 3.1a10.38 10.38 0 0 1 3.13 7.43c0 5.79-4.79 10.5-10.68 10.5z"/></svg></a>
+<button class="chat-fab" type="button" aria-label="Open concierge" data-open="chatModal">Help</button>
+
+<script src="config/site-config.js"></script>
+<script src="content/articles.js"></script>
+<script>
+const $=(q,s=document)=>s.querySelector(q), $$=(q,s=document)=>[...s.querySelectorAll(q)];
+const validRoutes=['home','stays','services','about','journal','contact','privacy','terms','cookies','disclaimer'];
+let routeBusy=false,lastFocus=null,preparedEnquiry='';
+
+const eliteConfig=window.ELITE_CONFIG||{brand:{},contact:{},socials:{}};
+const socialIcons={
+ instagram:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.8A4.2 4.2 0 1 1 12 16.2 4.2 4.2 0 0 1 12 7.8zm0 2A2.2 2.2 0 1 0 12 14.2 2.2 2.2 0 0 0 12 9.8zm5.2-3.3a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/></svg>',
+ facebook:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V9c0-.9.25-1.5 1.55-1.5h1.65V4.7c-.29-.04-1.27-.12-2.42-.12-2.4 0-4.04 1.46-4.04 4.15v2.17H7.5V14h2.74v8h3.26z"/></svg>',
+ tiktok:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.2 3c.42 2.05 1.57 3.27 3.8 3.4v3.05a7.5 7.5 0 0 1-3.76-1.1v6.14A6.49 6.49 0 1 1 9.7 8.07v3.22a3.37 3.37 0 1 0 2.4 3.22V3h3.1z"/></svg>',
+ youtube:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.2-.4-4.7a3 3 0 0 0-2.1-2.1C19 4.8 12 4.8 12 4.8s-7 0-8.5.4A3 3 0 0 0 1.4 7.3C1 8.8 1 12 1 12s0 3.2.4 4.7a3 3 0 0 0 2.1 2.1c1.5.4 8.5.4 8.5.4s7 0 8.5-.4a3 3 0 0 0 2.1-2.1C23 15.2 23 12 23 12zm-13.2 3.1V8.9l6 3.1-6 3.1z"/></svg>',
+ linkedin:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.3H3.2V21h3.3V8.3zM4.85 3A1.93 1.93 0 1 0 4.85 6.86 1.93 1.93 0 0 0 4.85 3zM21 13.7c0-3.84-2.05-5.63-4.78-5.63a4.12 4.12 0 0 0-3.72 2.05V8.3H9.2V21h3.3v-6.3c0-1.66.31-3.27 2.37-3.27 2.03 0 2.05 1.9 2.05 3.38V21H21v-7.3z"/></svg>',
+ x:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.24l-4.89-6.39L6.48 22H3.36l7.25-8.29L2.96 2H9.36l4.42 5.84L18.9 2zm-1.1 17.84h1.73L8.42 4.05H6.57L17.8 19.84z"/></svg>',
+ threads:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.2 2C6.3 2 3 5.5 3 12.1c0 6.3 3.2 9.9 9.1 9.9 5 0 8.3-2.4 8.3-6.1 0-2.8-1.7-4.7-4.7-5.4-.25-3-1.83-4.55-4.55-4.55-2.05 0-3.64.9-4.74 2.68l2.02 1.3c.72-1.15 1.58-1.7 2.67-1.7 1.32 0 2.05.65 2.18 2.04-.43-.03-.86-.05-1.28-.05-3.33 0-5.5 1.45-5.5 3.9 0 2.17 1.75 3.65 4.25 3.65 2.82 0 4.58-1.55 4.9-4.3 1.52.55 2.25 1.4 2.25 2.55 0 2.2-2.05 3.6-5.62 3.6-4.52 0-6.72-2.55-6.72-7.58 0-5.2 2.25-7.73 6.8-7.73 3.85 0 6.03 1.58 6.97 5.03l2.28-.62C19.9 4.15 16.85 2 12.2 2zm-.68 13.42c-1.32 0-2.08-.55-2.08-1.48 0-1.03.95-1.58 2.72-1.58.43 0 .83.03 1.2.08-.1 1.98-.68 2.98-1.84 2.98z"/></svg>'
+};
+function validUrl(v){try{const u=new URL(v);return ['http:','https:'].includes(u.protocol)}catch{return false}}
+function socialLabel(key){return ({instagram:'Instagram',facebook:'Facebook',tiktok:'TikTok',youtube:'YouTube',linkedin:'LinkedIn',x:'X',threads:'Threads'})[key]||key}
+function renderConfiguredSocials(){
+  const configured=Object.entries(eliteConfig.socials||{}).filter(([,url])=>validUrl(url));
+  $$('.footer-grid>div:first-child').forEach(col=>{let old=$('.social-links-configured',col);old?.remove();if(!configured.length)return;const wrap=document.createElement('div');wrap.className='social-links-configured';configured.forEach(([k,url])=>{const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',socialLabel(k));a.innerHTML=socialIcons[k]||socialLabel(k);wrap.appendChild(a)});col.appendChild(wrap)});
+  const contactPanel=$('.contact-panel');if(contactPanel){let old=$('.contact-socials',contactPanel);old?.remove();if(configured.length){const block=document.createElement('div');block.className='contact-socials';block.innerHTML='<div class="eyebrow">Follow ELITE</div><div class="social-links-configured"></div>';const wrap=$('.social-links-configured',block);configured.forEach(([k,url])=>{const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',socialLabel(k));a.innerHTML=socialIcons[k]||socialLabel(k);wrap.appendChild(a)});contactPanel.appendChild(block)}}
+}
+function renderFooterPolicies(){
+  $$('footer .container.footer-grid').forEach(grid=>{if($('.footer-policy-links',grid.parentElement))return;const p=document.createElement('div');p.className='footer-policy-links container';p.innerHTML='<a class="route" data-route="privacy" href="?page=privacy">Privacy</a><a class="route" data-route="terms" href="?page=terms">Terms</a><a class="route" data-route="cookies" href="?page=cookies">Cookies</a><a class="route" data-route="disclaimer" href="?page=disclaimer">Disclaimer</a>';grid.parentElement.insertBefore(p,$('.footer-bottom',grid.parentElement));});
+}
+function updateCopyright(){const year=new Date().getFullYear(),name=eliteConfig.brand?.legalName||eliteConfig.brand?.displayName||'ELITE';$$('[data-copyright]').forEach(x=>x.textContent=`© ${year} ${name}`)}
+function normalizedWhatsApp(){return String(eliteConfig.contact?.whatsapp||'').replace(/\D/g,'')}
+function contextMessage(){const page=$('.page.active')?.dataset.page;const base=eliteConfig.contact?.whatsappDefaultMessage||'Hello ELITE, I came across your website and would like to inquire about your services.';if(page==='stays')return 'Hello ELITE, I came across your website and would like to inquire about a stay in Zanzibar.';if(page==='services')return 'Hello ELITE, I came across your website and would like to inquire about your services in Zanzibar.';if(page==='contact')return preparedEnquiry||base;return base}
+function waUrl(msg){const num=normalizedWhatsApp();return num?`https://wa.me/${num}?text=${encodeURIComponent(msg)}`:''}
+function configureWhatsApp(){const fab=$('#whatsappFab'),num=normalizedWhatsApp();if(fab&&num){fab.classList.add('show');fab.href=waUrl(contextMessage())}else fab?.classList.remove('show')}
+function configureDirectContact(){const panel=$('.contact-panel');if(!panel)return;$('.config-contact-details',panel)?.remove();const rows=[];const email=eliteConfig.contact?.email?.trim(),phone=eliteConfig.contact?.phone?.trim();if(email)rows.push(`<a href="mailto:${email.replace(/"/g,'')}">${email}</a>`);if(phone)rows.push(`<a href="tel:${phone.replace(/[^+\d]/g,'')}">${phone}</a>`);if(rows.length){const d=document.createElement('div');d.className='config-contact-details';d.innerHTML=rows.join('');panel.appendChild(d)}}
+function configureSendActions(){const wa=$('#sendWhatsApp'),em=$('#sendEmail');const num=normalizedWhatsApp(),email=eliteConfig.contact?.email?.trim();if(wa&&num){wa.classList.add('show');wa.href=waUrl(preparedEnquiry||contextMessage())}else wa?.classList.remove('show');if(em&&email){em.classList.add('show');em.href=`mailto:${email}?subject=${encodeURIComponent('ELITE website enquiry')}&body=${encodeURIComponent(preparedEnquiry||'')}`}else em?.classList.remove('show')}
+function renderJournal(){const list=(window.ELITE_ARTICLES||[]).filter(a=>a.published!==false),feature=$('#journalFeature'),grid=$('#journalGrid');if(!feature||!grid||!list.length)return;const [first,...rest]=list;feature.innerHTML=`<article class="journal-feature-card"><a class="journal-feature-media" href="journal/${first.slug}/"><img src="${first.image}" alt="${first.imageAlt}" loading="lazy"></a><div class="journal-feature-copy"><div class="journal-meta"><span>${first.category}</span><span>${first.displayDate}</span><span>${first.readTime}</span></div><h2>${first.title}</h2><p>${first.excerpt}</p><a class="journal-read" href="journal/${first.slug}/">Read article <span>↗</span></a></div></article>`;grid.innerHTML=rest.map(a=>`<article class="journal-card"><a class="journal-card-media" href="journal/${a.slug}/"><img src="${a.image}" alt="${a.imageAlt}" loading="lazy"></a><div class="journal-card-body"><div class="journal-meta"><span>${a.category}</span><span>${a.readTime}</span></div><h3><a href="journal/${a.slug}/">${a.title}</a></h3><p>${a.excerpt}</p><a class="journal-read" href="journal/${a.slug}/">Read article <span>↗</span></a></div></article>`).join('')}
+renderConfiguredSocials();renderFooterPolicies();updateCopyright();configureDirectContact();configureWhatsApp();renderJournal();
+
+
+const seo={
+  home:{title:'ELITE | Short Stays & Services in Zanzibar',description:'ELITE offers furnished short stays, cleaning and fumigation, maintenance, and transport and logistics services across Zanzibar.'},
+  stays:{title:'Furnished Short Stays in Zanzibar | ELITE',description:'Explore ELITE 1, 2, 3 and 4-bedroom furnished short-stay options in Zanzibar for solo travellers, couples, families and groups.'},
+  services:{title:'Cleaning, Maintenance & Transport in Zanzibar | ELITE',description:'Request ELITE cleaning and fumigation, maintenance, passenger transport and logistics services across Zanzibar.'},
+  about:{title:'About ELITE Zanzibar | Stays & Services',description:'ELITE brings furnished short stays, cleaning, maintenance and transport support into one clear Zanzibar experience.'},
+  journal:{title:'ELITE Journal | Zanzibar Travel Guides & Stay Tips',description:'Practical Zanzibar travel guides, accommodation tips and local planning insights from the ELITE Journal.'},
+  contact:{title:'Contact ELITE Zanzibar | Stay & Service Enquiries',description:'Prepare an enquiry for ELITE accommodation, cleaning, maintenance, transport or logistics services in Zanzibar.'},
+  privacy:{title:'Privacy Policy | ELITE Zanzibar',description:'Read the ELITE Zanzibar Privacy Policy and how personal information submitted through the website may be handled.'},
+  terms:{title:'Terms & Conditions | ELITE Zanzibar',description:'Website and enquiry terms for ELITE furnished stays and practical services in Zanzibar.'},
+  cookies:{title:'Cookie Policy | ELITE Zanzibar',description:'Learn how the ELITE Zanzibar website currently uses cookies and third-party links.'},
+  disclaimer:{title:'Website Disclaimer | ELITE Zanzibar',description:'Important information about ELITE website content, travel information, representative imagery and service enquiries.'}
+};
+
+function setMeta(name){
+  document.title=seo[name].title;
+  const md=$('meta[name="description"]'); if(md) md.content=seo[name].description;
+  const ogt=$('meta[property="og:title"]'); if(ogt) ogt.content=seo[name].title;
+  const ogd=$('meta[property="og:description"]'); if(ogd) ogd.content=seo[name].description;
+  const cfg=window.ELITE_CONFIG||{}, base=(cfg.brand?.siteUrl||'').replace(/\/$/,'');
+  const canonical=$('#canonicalLink');
+  if(canonical){ if(base){ canonical.href=name==='home'?base+'/':base+'/?page='+encodeURIComponent(name); } else { canonical.removeAttribute('href'); } }
+}
+function currentRoute(){return new URLSearchParams(location.search).get('page')||'home'}
+function applyRoute(name,push=true){
+  if(!validRoutes.includes(name))name='home';
+  $$('.page').forEach(p=>p.classList.toggle('active',p.dataset.page===name));
+  $$('.route').forEach(link=>{
+    const active=link.dataset.route===name;
+    link.classList.toggle('active',active);
+    if(active)link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');
+  });
+  setMeta(name);
+  if(push)history.pushState({page:name},'',name==='home'?location.pathname:location.pathname+'?page='+encodeURIComponent(name));
+  closeMobileMenu();
+  window.scrollTo({top:0,behavior:'auto'});
+  requestAnimationFrame(refreshReveal);
+  configureWhatsApp();
+}
+function route(name,push=true){
+  if(routeBusy)return;
+  const current=$('.page.active')?.dataset.page;
+  if(current===name){applyRoute(name,push);return}
+  const curtain=$('.route-curtain');
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches||!curtain){applyRoute(name,push);return}
+  routeBusy=true; curtain.classList.remove('leave'); curtain.classList.add('enter');
+  setTimeout(()=>{applyRoute(name,push);curtain.classList.remove('enter');curtain.classList.add('leave');setTimeout(()=>{curtain.classList.remove('leave');routeBusy=false},520)},410);
+}
+$$('.route').forEach(link=>link.addEventListener('click',e=>{e.preventDefault();route(link.dataset.route)}));
+window.addEventListener('popstate',()=>route(currentRoute(),false));
+applyRoute(currentRoute(),false);
+document.body.classList.add('motion-ready');
+requestAnimationFrame(refreshReveal);
+
+function openMobileMenu(){const m=$('.mobile-menu'),b=$('.menu');m.classList.add('show');m.setAttribute('aria-hidden','false');b.setAttribute('aria-expanded','true');document.body.classList.add('lock');m.querySelector('.close-menu')?.focus()}
+function closeMobileMenu(){const m=$('.mobile-menu'),b=$('.menu');m?.classList.remove('show');m?.setAttribute('aria-hidden','true');b?.setAttribute('aria-expanded','false');document.body.classList.remove('lock')}
+$('.menu')?.addEventListener('click',openMobileMenu); $('.close-menu')?.addEventListener('click',closeMobileMenu);
+$$('.mobile-menu .route').forEach(a=>a.addEventListener('click',closeMobileMenu));
+
+let lastScroll=0;
+window.addEventListener('scroll',()=>{const h=$('.site-header');const y=scrollY;h?.classList.toggle('scrolled',y>10);h?.classList.toggle('compact',y>80);lastScroll=y},{passive:true});
+
+function focusable(container){return $$('button,[href],input,select,textarea,[tabindex]:not([tabindex="-1"])',container).filter(el=>!el.disabled&&!el.hidden&&el.offsetParent!==null)}
+function openModal(id,trigger){const layer=$('#'+id);if(!layer)return;lastFocus=trigger||document.activeElement;layer.classList.add('show');layer.setAttribute('aria-hidden','false');document.body.classList.add('lock');setTimeout(()=>focusable(layer)[0]?.focus(),20)}
+function closeModal(layer){if(!layer)return;layer.classList.remove('show');layer.setAttribute('aria-hidden','true');document.body.classList.remove('lock');lastFocus?.focus?.()}
+$$('[data-open]').forEach(btn=>btn.addEventListener('click',()=>{
+  if(btn.dataset.service&&$('#serviceType'))$('#serviceType').value=btn.dataset.service.includes('Maintenance')?'Maintenance':'Cleaning / Fumigation';
+  openModal(btn.dataset.open,btn);
+}));
+$$('[data-close]').forEach(btn=>btn.addEventListener('click',()=>closeModal(btn.closest('.layer'))));
+$$('.layer').forEach(layer=>layer.addEventListener('mousedown',e=>{if(e.target===layer)closeModal(layer)}));
+document.addEventListener('keydown',e=>{
+  const open=$('.layer.show');
+  if(e.key==='Escape'){if(open)closeModal(open);else closeMobileMenu()}
+  if(e.key==='Tab'&&open){const items=focusable(open);if(!items.length)return;const first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}
+});
+
+const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target)}}),{threshold:.12,rootMargin:'0px 0px -5% 0px'});
+function refreshReveal(){$$('.page.active .reveal').forEach(el=>{if(!el.classList.contains('is-visible'))revealObserver.observe(el)})}
+refreshReveal();
+
+const experienceData={
+ stay:{index:'01',image:'assets/elite-1br-living-kitchen.webp',alt:'Concept image of a furnished one-bedroom Zanzibar stay',kicker:'Furnished short stays',title:'Find your space.',text:'1–4 bedroom stays for solo trips, couples, families and groups.',label:'Explore stays',route:'stays',href:'?page=stays'},
+ clean:{index:'02',image:'assets/elite-cleaning.webp',alt:'Professional cleaning concept for ELITE Zanzibar',kicker:'Cleaning & fumigation',title:'Fresh. Ready.',text:'One-off or scheduled cleaning and fumigation.',label:'View cleaning',route:'services',href:'?page=services'},
+ maintain:{index:'03',image:'assets/elite-maintenance.webp',alt:'Maintenance service concept for ELITE Zanzibar',kicker:'Maintenance',title:'Keep it running.',text:'AC, electrical, plumbing and general maintenance.',label:'View maintenance',route:'services',href:'?page=services'},
+ move:{index:'04',image:'assets/elite-transport.webp',alt:'Transport and logistics concept for ELITE Zanzibar',kicker:'Transport & logistics',title:'Get there. Get it there.',text:'Passengers, supplies and equipment across Zanzibar.',label:'View transport',route:'services',href:'?page=services'}
+};
+function setExperience(key){const data=experienceData[key],stage=$('.experience-stage');if(!data||!stage)return;$$('.experience-tab').forEach(tab=>{const active=tab.dataset.exp===key;tab.classList.toggle('active',active);tab.setAttribute('aria-selected',String(active))});stage.classList.add('switching');setTimeout(()=>{const img=$('#experienceImage'),link=$('#experienceLink');img.src=data.image;img.alt=data.alt;$('#experienceIndex').textContent=data.index;$('#experienceKicker').textContent=data.kicker;$('#experienceTitle').textContent=data.title;$('#experienceText').textContent=data.text;link.childNodes[0].textContent=data.label+' ';link.dataset.route=data.route;link.href=data.href;stage.classList.remove('switching')},180)}
+$$('.experience-tab').forEach(tab=>tab.addEventListener('click',()=>setExperience(tab.dataset.exp)));
+
+const stayData={
+ one:{number:'01',main:'assets/elite-1br-living-kitchen.webp',secondary:'assets/elite-1br-bedroom.webp',mainAlt:'Concept image of a one-bedroom furnished apartment living room in Zanzibar',secondaryAlt:'Concept image of a one-bedroom furnished bedroom in Zanzibar',kicker:'1 Bedroom Stay',title:'Simple. Stylish. Yours.',description:'A furnished stay for solo travellers or couples.',facts:['1 Bedroom','Furnished','Short Stay']},
+ two:{number:'02',main:'assets/elite-bedroom.webp',secondary:'assets/elite-dining-kitchen.webp',mainAlt:'Concept image of a furnished bedroom in Zanzibar',secondaryAlt:'Concept image of a furnished dining and kitchen space in Zanzibar',kicker:'2 Bedroom Stay',title:'More room to settle in.',description:'A comfortable option for couples, friends or a small family.',facts:['2 Bedrooms','Furnished','Small Family']},
+ three:{number:'03',main:'assets/elite-dining-kitchen.webp',secondary:'assets/elite-arrival.webp',mainAlt:'Concept image of a furnished dining and kitchen area in Zanzibar',secondaryAlt:'Concept hospitality image for ELITE Zanzibar',kicker:'3 Bedroom Stay',title:'Made for family time.',description:'A spacious stay for families and groups travelling together.',facts:['3 Bedrooms','Family','Group Stay']},
+ four:{number:'04',main:'assets/elite-exterior.webp',secondary:'assets/elite-pool-sunset.webp',mainAlt:'Concept image of a tropical villa exterior in Zanzibar',secondaryAlt:'Concept poolside sunset image in Zanzibar',kicker:'4 Bedroom Stay',title:'Room for everyone.',description:'A larger furnished stay for bigger families and groups.',facts:['4 Bedrooms','Large Family','Group Stay']}
+};
+let currentStay='one',showingSecondary=false;
+function renderStay(key){const data=stayData[key],stage=$('.stay-selector-stage');if(!data||!stage)return;currentStay=key;showingSecondary=false;$$('.stay-size-tab').forEach(tab=>{const active=tab.dataset.stay===key;tab.classList.toggle('active',active);tab.setAttribute('aria-selected',String(active))});stage.classList.add('switching');setTimeout(()=>{const main=$('#stayMainImage'),secondary=$('#staySecondaryImage');main.src=data.main;main.alt=data.mainAlt;secondary.src=data.secondary;secondary.alt=data.secondaryAlt;$('#stayNumber').textContent=data.number;$('#stayKicker').textContent=data.kicker;$('#stayTitle').textContent=data.title;$('#stayDescription').textContent=data.description;$('#stayFacts').innerHTML=data.facts.map(x=>`<span>${x}</span>`).join('');$('#stayGalleryLink').textContent='Swap view ↗';stage.classList.remove('switching')},180)}
+$$('.stay-size-tab').forEach(tab=>tab.addEventListener('click',()=>renderStay(tab.dataset.stay)));
+$('#stayGalleryLink')?.addEventListener('click',()=>{const main=$('#stayMainImage'),secondary=$('#staySecondaryImage');if(!main||!secondary)return;const a={src:main.src,alt:main.alt};main.src=secondary.src;main.alt=secondary.alt;secondary.src=a.src;secondary.alt=a.alt;showingSecondary=!showingSecondary});
+$('#staySizeSelect')?.addEventListener('change',e=>renderStay(e.target.value));
+$$('.stay-footer-jump').forEach(btn=>btn.addEventListener('click',()=>{renderStay(btn.dataset.stayJump);$('.stay-selector')?.scrollIntoView({behavior:'smooth',block:'start'})}));
+
+function setContactNeed(need,message=''){route('contact');setTimeout(()=>{const n=$('#contactNeed'),m=$('#contactMessage');if(n)n.value=need;if(m&&message)m.value=message;$('#contactForm')?.scrollIntoView({behavior:'smooth',block:'center'})},550)}
+$$('[data-contact-need]').forEach(btn=>btn.addEventListener('click',()=>{const n=$('#contactNeed');if(n)n.value=btn.dataset.contactNeed;$('#contactForm')?.scrollIntoView({behavior:'smooth',block:'center'});$('#contactMessage')?.focus()}));
+$$('[data-concierge]').forEach(btn=>btn.addEventListener('click',()=>{closeModal(btn.closest('.layer'));setContactNeed(btn.dataset.concierge)}));
+
+function dateValid(a,b){if(!a||!b)return false;return new Date(b)>new Date(a)}
+$('#stayRequestForm')?.addEventListener('submit',e=>{e.preventDefault();const f=e.currentTarget,fd=new FormData(f);if(!dateValid(fd.get('checkin'),fd.get('checkout'))){alert('Please choose valid check-in and check-out dates.');return}if(!fd.get('phone')?.trim()){alert('Please add a phone or WhatsApp contact.');return}closeModal(f.closest('.layer'));const msg=`Stay enquiry\nCheck-in: ${fd.get('checkin')}\nCheck-out: ${fd.get('checkout')}\nGuests: ${fd.get('guests')}\nBedrooms: ${fd.get('bedrooms')}`;route('contact');setTimeout(()=>{$('#contactNeed').value='Accommodation';$('#contactPhone').value=fd.get('phone');$('#contactDate').value=fd.get('checkin');$('#contactMessage').value=msg;$('#contactForm').scrollIntoView({behavior:'smooth',block:'center'})},550)});
+$('#serviceRequestForm')?.addEventListener('submit',e=>{e.preventDefault();const f=e.currentTarget,fd=new FormData(f);if(!fd.get('phone')?.trim()){alert('Please add a phone or WhatsApp contact.');return}closeModal(f.closest('.layer'));const need=fd.get('service');const msg=`${need} request\nFrequency: ${fd.get('frequency')}\nLocation: ${fd.get('location')||'Not specified'}\nDetails: ${fd.get('details')||'Not specified'}`;route('contact');setTimeout(()=>{$('#contactNeed').value=need;$('#contactPhone').value=fd.get('phone');$('#contactMessage').value=msg;$('#contactForm').scrollIntoView({behavior:'smooth',block:'center'})},550)});
+$('#transportRequestForm')?.addEventListener('submit',e=>{e.preventDefault();const f=e.currentTarget,fd=new FormData(f);closeModal(f.closest('.layer'));const msg=`Transport / logistics request\nType: ${fd.get('type')}\nDate: ${fd.get('date')||'Not specified'}\nPickup: ${fd.get('pickup')||'Not specified'}\nDestination: ${fd.get('destination')||'Not specified'}\nDetails: ${fd.get('details')||'Not specified'}`;route('contact');setTimeout(()=>{$('#contactNeed').value='Transport / Logistics';$('#contactDate').value=fd.get('date')||'';$('#contactMessage').value=msg;$('#contactForm').scrollIntoView({behavior:'smooth',block:'center'})},550)});
+
+function validateContact(){const f=$('#contactForm');if(!f)return false;let ok=true;$$('.field',f).forEach(x=>x.classList.remove('invalid'));$$('.field-error',f).forEach(x=>x.textContent='');for(const name of ['name','phone']){const el=f.elements[name];if(!el.value.trim()){ok=false;el.closest('.field').classList.add('invalid');$(`[data-error-for="${name}"]`,f).textContent='Required'}}return ok}
+function buildEnquiry(){const f=$('#contactForm'),fd=new FormData(f);return [`ELITE enquiry`,`Name: ${fd.get('name')}`,`Phone / WhatsApp: ${fd.get('phone')}`,`Need: ${fd.get('need')}`,`Preferred date: ${fd.get('date')||'Not specified'}`,`Details: ${fd.get('message')||'Not specified'}`].join('\n')}
+$('#contactForm')?.addEventListener('submit',e=>{e.preventDefault();const status=$('#contactStatus');status.className='form-status';if(!validateContact()){status.textContent='Please complete the required fields.';status.classList.add('error');return}preparedEnquiry=buildEnquiry();status.textContent='Enquiry prepared. Choose an available sending option or copy the details.';status.classList.add('ready');$('#copyEnquiry').hidden=false;configureSendActions()});
+configureSendActions();
+$('#copyEnquiry')?.addEventListener('click',async()=>{const status=$('#contactStatus');try{await navigator.clipboard.writeText(preparedEnquiry||buildEnquiry());status.textContent='Enquiry copied to your clipboard.';status.className='form-status ready'}catch{status.textContent='Copy is blocked by this browser. Select the form details manually.';status.className='form-status error'}});
+$('.contact-focus')?.addEventListener('click',e=>{e.preventDefault();$('#contactForm')?.scrollIntoView({behavior:'smooth',block:'center'});$('#contactName')?.focus()});
+
+// Keyboard tab controls.
+function arrowTabs(selector,attr,activate){const tabs=$$(selector);tabs.forEach((tab,i)=>tab.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();const dir=['ArrowRight','ArrowDown'].includes(e.key)?1:-1;const next=tabs[(i+dir+tabs.length)%tabs.length];next.focus();activate(next.dataset[attr])}))}
+arrowTabs('.experience-tab','exp',setExperience);arrowTabs('.stay-size-tab','stay',renderStay);
+
+// Lightweight hero parallax on capable devices.
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&innerWidth>768){window.addEventListener('scroll',()=>{const img=$('.page.active .home-hero-image,.page.active .stays-hero>img,.page.active .page-hero>img');if(img&&scrollY<700)img.style.transform=`scale(1.02) translateY(${Math.min(scrollY*.035,18)}px)`},{passive:true})}
+</script>
+</body>
+</html>
